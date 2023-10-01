@@ -1,4 +1,4 @@
-# ACM UCR Website Template
+# WINC UCR Website
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -11,11 +11,11 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[WINC UCR Website Figma Design File](https://www.figma.com/file/OlDd8sSXhXnF8agrTjUZMu/WINC-Official-Website?type=design&node-id=46%3A40&mode=design&t=dVUTzq9MvZE6TaVU-1)
 
 ## Node.js
 
-ACM UCR Website Template runs on Node.js Version 16.17.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+WINC UCR Website runs on Node.js Version 16.17.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 
