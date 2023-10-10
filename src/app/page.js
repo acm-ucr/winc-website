@@ -1,12 +1,5 @@
-import Stats from "@/components/home/Stats";
-
 const Home = () => {
-  return (
-    <div>
-      Hello World
-      <Stats />
-    </div>
-  );
+  return <>WOMEN IN COMPUTING WEBSITE</>;
 };
 
 export default Home;
