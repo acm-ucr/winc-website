@@ -1,5 +1,12 @@
+import Stats from "@/components/home/Stats";
+
 const Home = () => {
-  return <>Hello World</>;
+  return (
+    <div>
+      Hello World
+      <Stats />
+    </div>
+  );
 };
 
 export default Home;
