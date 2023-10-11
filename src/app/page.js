@@ -1,5 +1,11 @@
+import Title from "../components/Title";
+
 const Home = () => {
-  return <>WOMEN IN COMPUTING WEBSITE</>;
+  return (
+    <div>
+      <Title />
+    </div>
+  );
 };
 
 export default Home;
