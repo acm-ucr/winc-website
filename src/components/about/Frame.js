@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Frame = ({ picture }) => {
   return (
-    <div>
+    <div className="w-fit h-fit">
       <Image
         className="shadow-[-50px_-50px_0px_0px] shadow-winc-pink"
         src={picture}
