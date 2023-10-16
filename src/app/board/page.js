@@ -1,10 +1,10 @@
 import Title from "@/components/Title";
-const Home = () => {
+const Board = () => {
   return (
     <>
-      <Title text="Home" />
+      <Title text="Board" />
     </>
   );
 };
 
-export default Home;
+export default Board;

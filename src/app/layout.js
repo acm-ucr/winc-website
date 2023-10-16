@@ -1,5 +1,5 @@
 /* eslint-disable new-cap */
-import "./globals.css";
+import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Urbanist } from "next/font/google";
 
