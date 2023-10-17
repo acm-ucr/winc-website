@@ -1,4 +1,4 @@
-const Officer = [
+const Board = [
   {
     image: "tempBoard.webp",
     name: "Jennie Kim",
@@ -132,4 +132,4 @@ const Officer = [
     pronouns: "he/him",
   },
 ];
-export default Officer;
+export default Board;
