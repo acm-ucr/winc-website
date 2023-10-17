@@ -1,10 +1,10 @@
 import Title from "@/components/Title";
-const About = () => {
+const Home = () => {
   return (
     <>
-      <Title text="About" />
+      <Title text="Home" />
     </>
   );
 };
 
-export default About;
+export default Home;
