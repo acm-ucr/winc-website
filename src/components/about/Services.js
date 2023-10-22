@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div className="bg-winc-pink flex flex-col w-full justify-center items-center p-8 outline outline-8 outline-winc-pink outline-offset-8 my-8  h-full">
       <div className="flex justify-center pt-2 pb-16">
-        <Title text="Become a Member" />
+        <Title text="Become a Member" textcolor="text-winc-white" />
       </div>
       <Row className="flex justify-center w-11/12 pb-16">
         <Col className="flex flex-col items-center justify-center text-center">
