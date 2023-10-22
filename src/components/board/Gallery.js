@@ -7,13 +7,13 @@ import Board from "@/data/Board";
 const Gallery = () => {
   return (
     <>
-      <div className="my-8">
+      <div className="flex justify-center my-8">
         <Title text="Meet the Team" />
       </div>
       <div className="bg-winc-pink">
-        <hr />
+        <br />
         <div className="bg-winc-white">
-          <hr />
+          <br />
           <div className="flex bg-winc-pink w-full px-12 py-8">
             <Row className="w-full">
               {Board.map((officer, index) => (
@@ -33,9 +33,9 @@ const Gallery = () => {
               ))}
             </Row>
           </div>
-          <hr />
+          <br />
         </div>
-        <hr />
+        <br />
       </div>
     </>
   );
