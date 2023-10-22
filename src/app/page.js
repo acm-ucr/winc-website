@@ -4,8 +4,9 @@ const Home = () => {
   return (
     <>
       <Title text="Home" />
+      <Stats />
     </>
   );
 };
 
-export default Stats;
+export default Home;
