@@ -21,8 +21,12 @@ const Officer = ({
         <div className="text-4xl font-semibold">{name}</div>
         <div className="text-2xl ml-2">{position}</div>
         <div className="flex flex-row space-x-3">
-          <LiaLinkedinIn size="42" />
-          <IoMdMail size="42" />
+          <a href={linkedin} className="text-winc-pink">
+            <LiaLinkedinIn size="42" />
+          </a>
+          <a href={"mailto:" + email} className="text-winc-pink">
+            <IoMdMail size="42" />
+          </a>
         </div>
         <div className="text-lg -space-y-1">
           <div>
