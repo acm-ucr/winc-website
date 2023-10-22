@@ -7,7 +7,7 @@ import about1 from "@/public/assets/about1.webp";
 
 const What = () => {
   return (
-    <Row className="text-winc-black flex items-center py-28 px-20">
+    <Row className="text-winc-black flex items-center font-urbanist py-28 px-20">
       <Col className="flex flex-col text-right">
         <Title text="What is WINC?" />
         <div className="flex justify-end">
@@ -15,8 +15,9 @@ const What = () => {
         </div>
         <div className="w-11/12 flex justify-end">
           <p className="text-left font-normal text-2xl w-11/12 pt-20">
-            WINC is the University of California, Riverside's ACM-W chapter
-            dedicated to empowering and supporting a network of women in tech.
+            WINC is the University of California, Riverside&lsquo;s ACM-W
+            chapter dedicated to empowering and supporting a network of women in
+            tech.
             <br></br>
             We are an inclusive community for anyone who is interested in
             advocating for women in tech and anyone - regardless of skill - who
@@ -26,7 +27,7 @@ const What = () => {
       </Col>
 
       <Col className="flex justify-center">
-        <Frame x={50} y={-50} picture={about1} />
+        <Frame x={40} y={-40} picture={about1} />
       </Col>
     </Row>
   );
