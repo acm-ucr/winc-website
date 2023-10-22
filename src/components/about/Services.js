@@ -1,31 +1,41 @@
 "use client";
 import React from "react";
 import { IoPersonSharp } from "react-icons/io5";
-
+import Title from "../Title";
 import Service from "./Service";
-
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 // style the background rectangle here
 
 const Services = () => {
   return (
-    <div className="flex justify-center items-center bg-winc-black w-full">
-      <div className="bg-winc-pink flex flex-row px-2 w-10/12 p-8">
-        <Service
-          icon={<IoPersonSharp size={40} />}
-          info="Meetings & Events"
-          description="Sign-in sheets will be sent out at the beginning of every meeting and event.Sign in so we can track attendance and give you access to our newsletters."
-        />
-        <Service
-          icon={<IoPersonSharp size={40} />}
-          info="Join our Slack"
-          description="Join our Slack to communicate with us and have access to all our channels including #opportunities — a great resouce for seeking internships and on-campus jobs."
-        />
-        <Service
-          icon={<IoPersonSharp size={40} />}
-          info="Follow our Socials"
-          description="Following our socials will keep you updated on what's happening with Winc!"
-        />
+    <div className="bg-winc-pink flex flex-col w-full justify-center items-center p-8 outline outline-8 outline-winc-pink outline-offset-8 my-8  h-full">
+      <div className="flex justify-center pt-2 pb-16">
+        <Title text="Become a Member" />
       </div>
+      <Row className="flex justify-center w-11/12 pb-16">
+        <Col className="flex flex-col items-center justify-center text-center">
+          <Service
+            icon={<IoPersonSharp size={40} />}
+            info="Meetings & Events"
+            description="Sign-in sheets will be sent out at the beginning of every meeting and event.Sign in so we can track attendance and give you access to our newsletters."
+          />
+        </Col>
+        <Col className="flex flex-col items-center justify-center text-center">
+          <Service
+            icon={<IoPersonSharp size={40} />}
+            info="Join our Slack"
+            description="Join our Slack to communicate with us and have access to all our channels including #opportunities — a great resouce for seeking internships and on-campus jobs."
+          />
+        </Col>
+        <Col className="flex flex-col items-center justify-center text-center">
+          <Service
+            icon={<IoPersonSharp size={40} />}
+            info="Follow our Socials"
+            description="Following our socials will keep you updated on what's happening with Winc!"
+          />
+        </Col>
+      </Row>
     </div>
   );
 };
