@@ -1,5 +1,4 @@
 import Title from "@/components/Title";
-import Stats from "@/components/home/Stats";
 const Home = () => {
   return (
     <>
@@ -7,5 +6,4 @@ const Home = () => {
     </>
   );
 };
-
-export default Stats;
+export default Home;
