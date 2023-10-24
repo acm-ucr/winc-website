@@ -1,6 +1,8 @@
+import tempBoard from "@/public/assets/tempBoard.webp";
+
 const Board = [
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Jennie Kim",
     position: "President",
     linkedin: "https://www.linkedin.com",
@@ -11,7 +13,7 @@ const Board = [
     starsign: "capricorn",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Shreya Mohan",
     position: "Vice President",
     linkedin: "https://www.linkedin.com",
@@ -22,7 +24,7 @@ const Board = [
     pronouns: "she/her",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "John Doe",
     position: "Secretary",
     linkedin: "https://www.linkedin.com",
@@ -33,7 +35,7 @@ const Board = [
     pronouns: "he/him",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Jennie Kim",
     position: "President",
     linkedin: "https://www.linkedin.com",
@@ -44,7 +46,7 @@ const Board = [
     starsign: "capricorn",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Shreya Mohan",
     position: "Vice President",
     linkedin: "https://www.linkedin.com",
@@ -55,7 +57,7 @@ const Board = [
     pronouns: "she/her",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "John Doe",
     position: "Secretary",
     linkedin: "https://www.linkedin.com",
@@ -66,7 +68,7 @@ const Board = [
     pronouns: "he/him",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Jennie Kim",
     position: "President",
     linkedin: "https://www.linkedin.com",
@@ -77,7 +79,7 @@ const Board = [
     starsign: "capricorn",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Shreya Mohan",
     position: "Vice President",
     linkedin: "https://www.linkedin.com",
@@ -88,7 +90,7 @@ const Board = [
     pronouns: "she/her",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "John Doe",
     position: "Secretary",
     linkedin: "https://www.linkedin.com",
@@ -99,7 +101,7 @@ const Board = [
     pronouns: "he/him",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Jennie Kim",
     position: "President",
     linkedin: "https://www.linkedin.com",
@@ -110,7 +112,7 @@ const Board = [
     starsign: "capricorn",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "Shreya Mohan",
     position: "Vice President",
     linkedin: "https://www.linkedin.com",
@@ -121,7 +123,7 @@ const Board = [
     pronouns: "she/her",
   },
   {
-    image: "tempBoard.webp",
+    image: tempBoard,
     name: "John Doe",
     position: "Secretary",
     linkedin: "https://www.linkedin.com",
