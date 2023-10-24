@@ -12,7 +12,7 @@ const We = () => {
         <Frame x={-40} y={-40} picture={about1} />
       </Col>
       <Col className="text-left flex flex-col">
-        <Title text="What do we do?" />
+        <Title text="What do we do?" textcolor="text-winc-black" />
         <div className="bg-winc-pink w-14 h-1 mt-6 "></div>
         <p className="flex text-winc-black font-normal text-2xl w-11/12 pt-20">
           We host a plethora of events. Whether you want to ace that coding
