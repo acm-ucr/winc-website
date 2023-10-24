@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
-import { FaCode } from "react-icons/fa";
+import { HiCodeBracket } from "react-icons/hi2";
 const Service = () => {
   return (
     <div className="bg-winc-yellow w-96 h-96 rounded-lg  flex items-center justify-center">
       <div className="flex flex-column items-center w-11/12">
-        <FaCode className="text-winc-pink" size="30" />
+        <HiCodeBracket className="text-winc-pink" size="45" />
+        <div></div>
         <h1 className="text-winc-pink  text-center text-3xl mb-4 justify-center font-semibold">
           WORKSHOPS
         </h1>
