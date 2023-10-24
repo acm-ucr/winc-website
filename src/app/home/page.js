@@ -2,7 +2,7 @@ import Title from "@/components/Title";
 const Home = () => {
   return (
     <>
-      <Title text="Home" />
+      <Title text="Home" textcolor="text-winc-black" />
     </>
   );
 };
