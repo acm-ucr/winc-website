@@ -1,13 +1,11 @@
 import React from "react";
 
 const Button = ({ backgroundColor, text, textColor }) => {
-  const buttonStyle = {
-    backgroundColor: backgroundColor,
-    color: textColor,
-  };
   return (
-    <div>
-      <button style={buttonStyle}>{text}</button>
+    <div
+      className={`${backgroundColor} ${textColor} border-2 border-winc-black rounded-lg w-24`}
+    >
+      {text}
     </div>
   );
 };
