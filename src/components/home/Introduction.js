@@ -10,7 +10,7 @@ const Introduction = () => {
         <p className="flex text-winc-pink font-bold text-3xl">we are...</p>
         <Title text="Women in Computing;" textcolor="text-winc-black" />
         <p className="flex text-winc-black font-normal text-2xl w-5/12 pt-6">
-          Supporting, celebratring, and advocating for women in all aspects of
+          Supporting, celebrating, and advocating for women in all aspects of
           the computing field at the University of California, Riverside (UCR).
         </p>
       </Col>
