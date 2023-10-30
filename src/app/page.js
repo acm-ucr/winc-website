@@ -3,9 +3,9 @@ import Title from "@/components/Title";
 const Home = () => {
   return (
     <>
-      <Title text="Home" textcolor="text-winc-black" />
-      {/* <Stats /> */}
+      <Title text="Home" />
     </>
   );
 };
-export default Home;
+
+export default Stats;
