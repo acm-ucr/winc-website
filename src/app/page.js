@@ -8,4 +8,4 @@ const Home = () => {
   );
 };
 
-export default Stats;
+export default Home;
