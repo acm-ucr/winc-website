@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/assets/logo.webp";
+import Button from "@/components/Navigation";
 const Navigation = () => {
   return (
     <Navbar
@@ -65,7 +66,11 @@ const Navigation = () => {
             href="https://docs.google.com/forms/d/e/1FAIpQLSe5M-kEntAmPHnHNcerN6F8G5eevJs6zQJgEt3X3hcj_eNV3w/viewform"
             className="mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
           >
-            join now
+            <Button
+              backgroundColor="bg-winc-yellow"
+              text="join now"
+              textColor="text-winc-orange"
+            />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
