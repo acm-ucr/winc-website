@@ -10,17 +10,17 @@ import Stat from "./Stat";
 
 const Stats = () => {
   return (
-    <div className="flex justify-center items-center bg-winc-pink w-full p-8 outline outline-8 outline-winc-pink outline-offset-8 my-8">
+    <div className="flex justify-center items-center bg-winc-pink w-full p-16 outline outline-8 outline-winc-pink outline-offset-8 my-4">
       <div className=""></div>
-      <div className="bg-winc-pink flex flex-row px-2 w-8/12">
+      <div className="bg-winc-pink flex flex-row w-11/12">
         <Stat
-          icon={<FaChalkboardTeacher size="62px" />}
+          icon={<FaChalkboardTeacher size="84px" />}
           stat="100+"
           type="Workshops"
         />
-        <Stat icon={<IoPersonSharp size="50px" />} stat="500+" type="Members" />
+        <Stat icon={<IoPersonSharp size="70px" />} stat="500+" type="Members" />
         <Stat
-          icon={<FaUserGraduate size="50px" />}
+          icon={<FaUserGraduate size="70px" />}
           stat="1000+"
           type="Alumni"
         />
