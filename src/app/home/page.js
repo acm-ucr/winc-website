@@ -7,8 +7,8 @@ const Home = () => {
     <>
       <Title text="Home" textcolor="text-winc-black" />
       <Introduction />
-      <Stats />
       <Empower />
+      <Stats />
     </>
   );
 };
