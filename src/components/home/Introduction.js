@@ -9,11 +9,12 @@ const Introduction = () => {
       <Col className="text-left flex flex-col">
         <p className="flex text-winc-pink font-bold text-3xl">we are...</p>
         <Title text="Women in Computing;" textcolor="text-winc-black" />
-        <p className="flex text-winc-black font-normal text-2xl w-5/12 pt-6">
+        <p className="flex text-winc-black font-normal w-9/12 text-2xl pt-6">
           Supporting, celebrating, and advocating for women in all aspects of
           the computing field at the University of California, Riverside (UCR).
         </p>
       </Col>
+      <Col></Col>
     </Row>
   );
 };
