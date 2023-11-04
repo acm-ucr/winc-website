@@ -1,9 +1,9 @@
 import {
   FaInstagram,
   MdEmail,
-  FaDiscord,
+  FaGithub,
   FaSlack,
-  FaLinkdIn,
+  FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
 
