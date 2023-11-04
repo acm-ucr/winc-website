@@ -1,8 +1,8 @@
-import Title from "@/components/Title";
+import Event from "@/components/events/Event";
 const Events = () => {
   return (
     <>
-      <Title text="Events" textcolor="text-winc-black" />
+      <Event />
     </>
   );
 };
