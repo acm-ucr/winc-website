@@ -7,7 +7,7 @@ const Service = () => {
       <div className="flex flex-column items-center w-11/12">
         <HiCodeBracket className="text-winc-pink" size="45" />
         <div></div>
-        <h1 className="text-winc-pink  text-center text-3xl mb-4 justify-center font-semibold">
+        <h1 className="text-winc-pink  text-center text-3xl mb-4 justify-center font-bold">
           WORKSHOPS
         </h1>
         <p className="text-winc-pink text-center  text-xl">
