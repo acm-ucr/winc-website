@@ -1,13 +1,5 @@
 "use client";
 import React from "react";
-/*
-  Componenets in Service Card:
-  icon
-  name
-  description
-  socialMedia
-*/
-
 const Service = ({ icon, name, description, socialMedia }) => {
   return (
     <div className="bg-winc-yellow w-11/12 h-96 rounded-lg flex items-center justify-center">
@@ -20,7 +12,7 @@ const Service = ({ icon, name, description, socialMedia }) => {
       <p className="text-winc-pink text-center  text-xl">{description}</p>
 
       {/* Smaller Rectangle */}
-      <div className="bg-winc-pink w-187 h-57 mt-4 rounded-lg flex items-center justify-center">
+      <div className="bg-winc-pink w-5/12 h-3/6 mt-4 px-8 rounded-lg flex items-center justify-center">
         <div className="text-winc-yellow text-3xl justify-center font-light">
           {socialMedia}
         </div>
