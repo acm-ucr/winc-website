@@ -1,18 +1,12 @@
-import Event from "@/components/events/Event";
+import Upcoming from "@/components/events/Upcoming";
+import Title from "@/components/Title";
 const Events = () => {
   return (
     <>
-      <Event
-        month={"FEB"}
-        day={"29"}
-        start={"7:00PM"}
-        title={"Life in the Industry: PM"}
-        location={"http://google.com"}
-        description={
-          "For our second installment of the Life in the Industry series: Learn all about the role as a Product Manager, from the details of the day-to-day work schedule to the ranking status, salaries, and the people you work with in this position."
-        }
-        color={"bg-winc-pink"}
-      />
+      <div className="flex justify-left items-center bg-winc-pink w-full p-8 outline outline-8 outline-winc-pink outline-offset-8 my-4">
+        <Title text="Events" textcolor="text-winc-white" />
+        <Upcoming />
+      </div>
     </>
   );
 };
