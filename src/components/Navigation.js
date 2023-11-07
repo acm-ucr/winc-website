@@ -32,7 +32,7 @@ const Navigation = () => {
             as={Link}
             eventkey="6"
             href="/"
-            className="mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
           >
             home
           </Nav.Link>
@@ -40,7 +40,7 @@ const Navigation = () => {
             as={Link}
             eventkey="2"
             href="/about"
-            className="mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
           >
             about
           </Nav.Link>
@@ -48,7 +48,7 @@ const Navigation = () => {
             as={Link}
             eventkey="3"
             href="/board"
-            className="mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
           >
             board
           </Nav.Link>
@@ -56,7 +56,7 @@ const Navigation = () => {
             as={Link}
             eventkey="6"
             href="/events"
-            className="mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-winc-black !font-regular hover:!text-winc-pink hover:cursor-pointer"
           >
             events
           </Nav.Link>
@@ -64,7 +64,7 @@ const Navigation = () => {
             as={Link}
             eventkey="6"
             href="https://docs.google.com/forms/d/e/1FAIpQLSe5M-kEntAmPHnHNcerN6F8G5eevJs6zQJgEt3X3hcj_eNV3w/viewform"
-            className="flex justify-center items-ccenter "
+            className="flex justify-center items-center mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap"
           >
             <Button />
           </Nav.Link>
