@@ -1,11 +1,9 @@
 import React from "react";
 
-const Button = ({ backgroundColor, text, textColor }) => {
+const Button = () => {
   return (
-    <div
-      className={`${backgroundColor} ${textColor} border-2 border-winc-black rounded-lg w-24`}
-    >
-      {text}
+    <div className="bg-winc-yellow text-winc-pink text-2xl font-bold flex justify-center items-center rounded-full min-w-fit px-4 whitespace-nowrap">
+      join now
     </div>
   );
 };
