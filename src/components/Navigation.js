@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/assets/logo.webp";
-import Button from "@/components/Navigation";
+import Button from "@/components/Button";
 const Navigation = () => {
   return (
     <Navbar
