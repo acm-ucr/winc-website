@@ -5,11 +5,11 @@ import Service from "./Service";
 import { MdMic } from "react-icons/md";
 const Services = () => {
   return (
-    <div className="flex justify-center">
-      <Row className="w-10/12 flex justify-center">
+    <div className="flex justify-center w-full my-8">
+      <Row className="w-11/12 flex justify-center">
         <Col>
           <Service
-            icon={<MdMic className="text-winc-yellow" size={45} />}
+            icon={<MdMic className="text-winc-yellow" size={50} />}
             topic="CONVERSATIONS"
             textColor="text-winc-yellow"
             description="Discuss health and well-being with Let's Talk and catch up with WINC alumni on our Podcast"
@@ -21,7 +21,7 @@ const Services = () => {
         </Col>
         <Col>
           <Service
-            icon={<MdMic className="text-winc-yellow" size={45} />}
+            icon={<MdMic className="text-winc-yellow" size={50} />}
             topic="CONVERSATIONS"
             textColor="text-winc-yellow"
             description="Discuss health and well-being with Let's Talk and catch up with WINC alumni on our Podcast"
@@ -33,7 +33,7 @@ const Services = () => {
         </Col>
         <Col>
           <Service
-            icon={<MdMic className="text-winc-yellow" size={45} />}
+            icon={<MdMic className="text-winc-yellow" size={50} />}
             topic="CONVERSATIONS"
             textColor="text-winc-yellow"
             description="Discuss health and well-being with Let's Talk and catch up with WINC alumni on our Podcast"

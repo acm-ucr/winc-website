@@ -12,21 +12,21 @@ const Service = ({
 }) => {
   return (
     <div
-      className={` ${backgroundColor} p-6 w-11/12 rounded-lg flex items-center justify-center flex-col`}
+      className={` ${backgroundColor} w-11/12 rounded-3xl min-w-fit h-full flex items-center justify-center flex-col font-urbanist p-4`}
     >
-      {icon}
-      <h1
-        className={` ${textColor} text-center text-3xl mb-4 mt-2 justify-center font-bold`}
+      <div className="pt-6">{icon}</div>
+      <div
+        className={` ${textColor} flex text-center text-4xl my-4 justify-center font-bold`}
       >
         {topic}
-      </h1>
-      <p className={` ${textColor} text-center font-thin text-xl`}>
+      </div>
+      <p
+        className={` ${textColor} flex text-center font-thin px-8 text-xl mt-4`}
+      >
         {description}
       </p>
-
-      {/* Smaller Rectangle */}
       <div
-        className={` ${mediaBG} ${mediaText} w-8/12 h-1/6 rounded-md px-4 mt-4 flex text-4xl items-center font-light justify-center"`}
+        className={`${mediaBG} ${mediaText}flex justify-center text-center font-light text-4xl py-2 px-1 items-center w-6/12 h-full rounded-md mt-8`}
       >
         {media}
       </div>
