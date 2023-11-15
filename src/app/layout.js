@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Urbanist } from "next/font/google";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 export const metadata = {
   title: "WINC @ UCR",
   description: "Women In Computing Official Website",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={urbanist.className}>
         <Navigation />
         <div className="pt-[8vh]">{children}</div>
+        <Footer />
       </body>
     </html>
   );
