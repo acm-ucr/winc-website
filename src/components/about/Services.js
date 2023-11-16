@@ -13,7 +13,7 @@ const Services = () => {
       <div className="flex justify-center pt-2 pb-16">
         <Title text="Become a Member" textcolor="text-winc-white" />
       </div>
-      <Row className="flex justify-center w-11/12 pb-16">
+      <Row className="flex flex-col md:flex-row justify-center w-11/12 pb-16">
         <Col className="flex flex-col items-center justify-center text-center">
           <Service
             icon={<IoPersonSharp size={40} />}
