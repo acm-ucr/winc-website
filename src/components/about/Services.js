@@ -9,26 +9,26 @@ import { Col } from "react-bootstrap";
 
 const Services = () => {
   return (
-    <div className="bg-winc-pink flex flex-col w-full justify-center items-center p-8 outline outline-8 outline-winc-pink outline-offset-8 my-8  h-full">
+    <div className="bg-winc-pink flex flex-col w-full justify-center items-center p-8 outline outline-8 outline-winc-pink outline-offset-8 my-8">
       <div className="flex justify-center pt-2 pb-16">
         <Title text="Become a Member" textcolor="text-winc-white" />
       </div>
       <Row className="flex flex-col md:flex-row justify-center w-11/12 pb-16">
-        <Col className="flex flex-col items-center justify-center text-center">
+        <Col className="flex flex-col py-2 items-center justify-center text-center">
           <Service
             icon={<IoPersonSharp size={40} />}
             info="Meetings & Events"
             description="Sign-in sheets will be sent out at the beginning of every meeting and event.Sign in so we can track attendance and give you access to our newsletters."
           />
         </Col>
-        <Col className="flex flex-col items-center justify-center text-center">
+        <Col className="flex flex-col py-2 items-center justify-center text-center">
           <Service
             icon={<IoPersonSharp size={40} />}
             info="Join our Slack"
             description="Join our Slack to communicate with us and have access to all our channels including #opportunities — a great resouce for seeking internships and on-campus jobs."
           />
         </Col>
-        <Col className="flex flex-col items-center justify-center text-center">
+        <Col className="flex flex-col py-2 items-center justify-center text-center">
           <Service
             icon={<IoPersonSharp size={40} />}
             info="Follow our Socials"
