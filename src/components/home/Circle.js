@@ -11,13 +11,13 @@ const Circle = ({ width, height, clip, image }) => {
   return (
     <div
       className="flex justify-center items-center bg-winc-pink rounded-full outline outline-4 outline-offset-8 outline-winc-pink w-full h-full relative"
-      style={{ width: width + "px", height: height + "px" }}
+      style={{ width: width, height: height }}
     >
       <Image
         src={image}
         width={width * 1.1}
-        className="max-w-none"
-        style={{ clipPath: "circle(53.4%)" }}
+        className="absolute max-w-none"
+        style={{ clipPath: "circle(53.5%)" }}
       />
       <Image
         src={image}
