@@ -15,16 +15,10 @@ const Circle = ({ width, height, clip, image }) => {
     >
       <Image
         src={image}
-        width={width * 1.1}
         className="absolute max-w-none"
-        style={{ clipPath: "circle(53.5%)" }}
+        style={{ clipPath: "circle(54.8%)" }}
       />
-      <Image
-        src={image}
-        width={width * 1.1}
-        className="absolute rounded-3xl max-w-none"
-        style={rectClip}
-      />
+      <Image src={image} className="rounded-3xl max-w-none" style={rectClip} />
     </div>
   );
 };
