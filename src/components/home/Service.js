@@ -26,9 +26,9 @@ const Service = ({
         {description}
       </p>
       <div
-        className={`${mediaBG} ${mediaText}flex justify-center text-center font-light text-4xl py-2 px-1 items-center w-6/12 h-full rounded-md mt-8`}
+        className={`${mediaBG} flex justify-center text-center font-light text-4xl py-2 px-1 items-center w-6/12 h-full rounded-md mt-8`}
       >
-        {media}
+        <div className={`${mediaText}`}> {media} </div>
       </div>
     </div>
   );
