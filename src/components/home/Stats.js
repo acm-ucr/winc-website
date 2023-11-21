@@ -12,7 +12,7 @@ import Stat from "./Stat";
 
 const Stats = () => {
   return (
-    <div className="flex justify-center items-center bg-winc-pink w-full p-16 outline outline-8 outline-winc-pink outline-offset-8 my-4">
+    <div className="flex justify-center items-center bg-winc-pink p-16 outline outline-8 outline-winc-pink outline-offset-8 my-4">
       <div className=""></div>
       {/* <div className="bg-winc-pink flex flex-row w-11/12"> */}
       <Row className="flex justify-center w-11/12 ">
