@@ -9,14 +9,14 @@ const Services = () => {
   return (
     <>
       <div className="flex justify-center">
-        <div className="outline outline-offset-2 outline-winc-yellow w-4/12 h-1/4 bg-winc-yellow flex items-center justify-center">
-          <div className="flex text-center text-winc-pink text-3xl justify-center font-urbanist font-bold">
+        <div className="outline outline-offset-8 outline-winc-yellow outline-4 w-6/12 h-full bg-winc-yellow flex items-center justify-center">
+          <div className="flex text-center text-winc-pink text-5xl justify-center font-urbanist font-semibold p-2">
             Grow and thrive
           </div>
         </div>
       </div>
 
-      <div className="flex justify-center my-8 text-2xl">
+      <div className="flex justify-center my-16 text-2xl font-normal font-urbanist text-winc-black">
         <p>
           We offer all the opportunities and resources necessary for success
         </p>
