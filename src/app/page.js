@@ -1,9 +1,11 @@
-import Title from "@/components/Title";
+import Introduction from "@/components/home/Introduction";
+import Empower from "@/components/home/Empower";
 // import Stats from "@/components/home/Stats";
 const Home = () => {
   return (
     <>
-      <Title text="Home" />
+      <Introduction />
+      <Empower />
     </>
   );
 };
