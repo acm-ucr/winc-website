@@ -2,6 +2,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Title from "@/components/Title";
+import Button from "@/components/home/Button";
 
 const Introduction = () => {
   return (
@@ -13,6 +14,11 @@ const Introduction = () => {
           Supporting, celebrating, and advocating for women in all aspects of
           the computing field at the University of California, Riverside (UCR).
         </p>
+        <Button
+          backgroundColor="bg-winc-pink"
+          textColor="text-winc-white"
+          text="Join Now"
+        />
       </Col>
       <Col></Col>
     </Row>
