@@ -13,7 +13,7 @@ const Services = () => {
       <div className="flex text-center justify-center pt-2 pb-16">
         <Title text="Become a Member" textcolor="text-winc-white" />
       </div>
-      <Row className="flex justify-center w-11/12 pb-16">
+      <Row className="flex justify-center w-11/12 pb-16 h-full">
         <Col
           sm={6}
           md={4}
