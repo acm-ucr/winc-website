@@ -12,34 +12,42 @@ import Stat from "./Stat";
 
 const Stats = () => {
   return (
-    <div className="flex justify-center items-center bg-winc-pink p-16 outline outline-8 outline-winc-pink outline-offset-8 my-4">
-      <div className=""></div>
-      {/* <div className="bg-winc-pink flex flex-row w-11/12"> */}
-      <Row className="flex justify-center w-11/12 ">
-        <Col className="flex flex-col items-center justify-center text-center mb-12">
+    <div className="flex flex-col justify-center items-center bg-winc-pink outline outline-8 outline-winc-pink outline-offset-8 mb-16">
+      <Row className="flex justify-center w-11/12 h-full my-16">
+        <Col
+          sm={6}
+          md={4}
+          className="flex flex-col items-center justify-center text-center"
+        >
           <Stat
-            icon={<FaChalkboardTeacher size="84px" />}
+            icon={<FaChalkboardTeacher className="text-5xl md:text-8xl" />}
             stat="100+"
             type="Workshops"
           />
         </Col>
-        <Col className="flex flex-col items-center justify-center text-center mb-12">
+        <Col
+          sm={6}
+          md={4}
+          className="flex flex-col items-center justify-center text-center"
+        >
           <Stat
-            icon={<IoPersonSharp size="70px" />}
+            icon={<IoPersonSharp className="text-5xl md:text-7xl" />}
             stat="500+"
             type="Members"
           />
         </Col>
-        <Col className="flex flex-col items-center justify-center text-center mb-12">
+        <Col
+          sm={6}
+          md={4}
+          className="flex flex-col items-center justify-center text-center"
+        >
           <Stat
-            icon={<FaUserGraduate size="70px" />}
+            icon={<FaUserGraduate className="text-5xl md:text-7xl" />}
             stat="1000+"
             type="Alumni"
           />
         </Col>
       </Row>
-
-      {/* </div> */}
     </div>
   );
 };
