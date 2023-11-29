@@ -2,7 +2,7 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Service from "./Service";
-import { MdMic } from "react-icons/md";
+import { FaPeopleGroup } from "react-icons/fa6";
 import { BsFillPersonFill } from "react-icons/bs";
 import { HiMiniCodeBracket } from "react-icons/hi2";
 const Services = () => {
@@ -38,13 +38,13 @@ const Services = () => {
           </Col>
           <Col>
             <Service
-              icon={<MdMic className="text-winc-yellow" size={50} />}
-              topic="CONVERSATIONS"
-              textColor="text-winc-yellow"
-              description="Discuss health and well-being with Let's Talk and catch up with WINC alumni on our Podcast."
-              media="LISTEN"
-              mediaBG="bg-winc-yellow"
-              mediaText="text-winc-black"
+              icon={<FaPeopleGroup className="text-winc-white" size={50} />}
+              topic="MENTORSHIP"
+              textColor="text-winc-white"
+              description="Learn from your peers about academia, industry, research, internships and much more."
+              media="COMING SOON"
+              mediaBG="bg-gray-400"
+              mediaText="black"
               backgroundColor="bg-winc-black"
             />
           </Col>
