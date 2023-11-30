@@ -9,6 +9,7 @@ const Service = ({
   mediaBG,
   mediaText,
   backgroundColor,
+  mediaLink,
 }) => {
   return (
     <div
@@ -23,11 +24,12 @@ const Service = ({
       <p className={` ${textColor} flex text-center px-8 text-xl mt-4`}>
         {description}
       </p>
-      <div
+      <a
+        href={`${mediaLink}`}
         className={`${mediaBG} flex justify-center text-center font-light text-4xl py-2 px-1 items-center w-9/12 min-w-fit whitespace-nowrap h-full rounded-md mt-8`}
       >
         <div className={`${mediaText}`}> {media} </div>
-      </div>
+      </a>
     </div>
   );
 };
