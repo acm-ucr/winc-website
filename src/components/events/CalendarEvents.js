@@ -30,7 +30,7 @@ const CalendarEvents = () => {
       <div className="mb-5 w-11/12 flex justify-center items-center">
         <div className="h-[110vh] w-full relative">
           <Calendar
-            className="font-urbanist w-full m-0 p-0 text-3xl"
+            className="font-urbanist w-full m-0 p-0 text-2xl"
             events={dummyEvents}
             localizer={mLocalizer}
             defaultView="month"
