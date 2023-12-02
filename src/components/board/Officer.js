@@ -22,8 +22,8 @@ const Officer = ({
         <a href={linkedin} className="text-winc-pink">
           <LiaLinkedinIn size="38" />
         </a>
-        <a href={"mailto:" + email} className="text-winc-pink">
-          <IoMdMail size="38" />
+        <a href={"mailto:" + email} className="text-winc-pink ml-1">
+          <IoMdMail size="32" />
         </a>
       </Col>
       <Col className="text-winc-pink font-urbanist whitespace-nowrap" lg={9}>
