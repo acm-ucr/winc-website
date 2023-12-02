@@ -14,7 +14,7 @@ const Officer = ({
   year,
   major,
   pronouns,
-  starsign,
+  hobbies,
 }) => {
   return (
     <Row className="flex flex-row bg-winc-beige pt-4 pb-3 w-11/12 max-w-max shadow-[12px_-10px_0px_2px] shadow-winc-orange">
@@ -35,7 +35,7 @@ const Officer = ({
             {year} year · {major}
           </div>
           <div>Pronouns: {pronouns}</div>
-          <div>Star Sign: {starsign}</div>
+          <div>Hobbies: {hobbies}</div>
         </div>
       </Col>
     </Row>
