@@ -11,7 +11,7 @@ const Services = () => {
       <div className="flex justify-center">
         <div className="outline outline-offset-8 outline-winc-yellow outline-4 w-6/12 h-full bg-winc-yellow flex items-center justify-center">
           <div className="flex text-center text-winc-pink text-5xl justify-center font-urbanist font-semibold p-2">
-            Grow and thrive
+            Grow and Thrive
           </div>
         </div>
       </div>
@@ -34,6 +34,7 @@ const Services = () => {
               mediaBG="bg-winc-white"
               mediaText="text-winc-pink"
               backgroundColor="bg-winc-pink"
+              mediaLink="https://join.slack.com/t/wincucr/shared_invite/zt-27xdsp07m-sPKN9hnqg0KRzYi832tm7Q"
             />
           </Col>
           <Col>
@@ -58,6 +59,7 @@ const Services = () => {
               mediaBG="bg-winc-pink"
               mediaText="text-winc-yellow"
               backgroundColor="bg-winc-yellow"
+              mediaLink="https://youtube.com/@womenincomputingatucr1832?si=lCvZPMiG5SVdginI"
             />
           </Col>
         </Row>
