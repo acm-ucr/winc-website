@@ -24,7 +24,7 @@ const Gallery = () => {
                   year={officer.year}
                   major={officer.major}
                   pronouns={officer.pronouns}
-                  starsign={officer.starsign}
+                  hobbies={officer.hobbies}
                 />
               </Col>
             ))}

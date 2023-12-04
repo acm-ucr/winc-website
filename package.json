@@ -14,11 +14,14 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
-    "next": "^13.5.3",
+    "moment": "^2.29.4",
+    "next": "^13.4.8",
     "react": "^18.2.0",
+    "react-big-calendar": "^1.8.5",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "react-router-bootstrap": "^0.26.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",

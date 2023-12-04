@@ -2,7 +2,7 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Service from "./Service";
-import { MdMic } from "react-icons/md";
+import { FaPeopleGroup } from "react-icons/fa6";
 import { BsFillPersonFill } from "react-icons/bs";
 import { HiMiniCodeBracket } from "react-icons/hi2";
 const Services = () => {
@@ -11,7 +11,7 @@ const Services = () => {
       <div className="flex justify-center">
         <div className="outline outline-offset-8 outline-winc-yellow outline-4 w-6/12 h-full bg-winc-yellow flex items-center justify-center">
           <div className="flex text-center text-winc-pink text-5xl justify-center font-urbanist font-semibold p-2">
-            Grow and thrive
+            Grow and Thrive
           </div>
         </div>
       </div>
@@ -34,17 +34,18 @@ const Services = () => {
               mediaBG="bg-winc-white"
               mediaText="text-winc-pink"
               backgroundColor="bg-winc-pink"
+              mediaLink="https://join.slack.com/t/wincucr/shared_invite/zt-27xdsp07m-sPKN9hnqg0KRzYi832tm7Q"
             />
           </Col>
           <Col>
             <Service
-              icon={<MdMic className="text-winc-yellow" size={50} />}
-              topic="CONVERSATIONS"
-              textColor="text-winc-yellow"
-              description="Discuss health and well-being with Let's Talk and catch up with WINC alumni on our Podcast."
-              media="LISTEN"
-              mediaBG="bg-winc-yellow"
-              mediaText="text-winc-black"
+              icon={<FaPeopleGroup className="text-winc-white" size={50} />}
+              topic="MENTORSHIP"
+              textColor="text-winc-white"
+              description="Learn from your peers about academia, industry, research, internships and much more."
+              media="COMING SOON"
+              mediaBG="bg-gray-400"
+              mediaText="black"
               backgroundColor="bg-winc-black"
             />
           </Col>
@@ -58,6 +59,7 @@ const Services = () => {
               mediaBG="bg-winc-pink"
               mediaText="text-winc-yellow"
               backgroundColor="bg-winc-yellow"
+              mediaLink="https://youtube.com/@womenincomputingatucr1832?si=lCvZPMiG5SVdginI"
             />
           </Col>
         </Row>
