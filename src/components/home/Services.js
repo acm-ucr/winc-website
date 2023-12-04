@@ -17,14 +17,26 @@ const Services = () => {
       </div>
 
       <div className="flex justify-center my-16 text-2xl font-normal font-urbanist text-winc-black">
-        <p>
-          We offer all the opportunities and resources necessary for success
-        </p>
+        <Row className="w-11/12 flex justify-center">
+          <Col
+            sm={6}
+            md={4}
+            className="flex flex-col items-center justify-center text-center"
+          >
+            <p>
+              We offer all the opportunities and resources necessary for success
+            </p>
+          </Col>
+        </Row>
       </div>
 
       <div className="flex justify-center w-full my-8">
         <Row className="w-11/12 flex justify-center">
-          <Col>
+          <Col
+            sm={6}
+            md={4}
+            className="flex flex-col items-center justify-center text-center mb-8"
+          >
             <Service
               icon={<BsFillPersonFill className="text-winc-white" size={50} />}
               topic="COMMUNITY"
@@ -37,7 +49,11 @@ const Services = () => {
               mediaLink="https://join.slack.com/t/wincucr/shared_invite/zt-27xdsp07m-sPKN9hnqg0KRzYi832tm7Q"
             />
           </Col>
-          <Col>
+          <Col
+            sm={6}
+            md={4}
+            className="flex flex-col items-center justify-center text-center mb-8"
+          >
             <Service
               icon={<FaPeopleGroup className="text-winc-white" size={50} />}
               topic="MENTORSHIP"
@@ -49,7 +65,11 @@ const Services = () => {
               backgroundColor="bg-winc-black"
             />
           </Col>
-          <Col>
+          <Col
+            sm={6}
+            md={4}
+            className="flex flex-col items-center justify-center text-center mb-4"
+          >
             <Service
               icon={<HiMiniCodeBracket className="text-winc-pink" size={50} />}
               topic="WORKSHOPS"
