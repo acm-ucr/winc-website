@@ -33,29 +33,27 @@ const Modal = ({ event, setState }) => {
         <p
           className={`text-winc-white bg-winc-black rounded-full m-0 font-bold py-2 md:py-3 px-3 md:px-4 text-lg md:text-3xl`}
         >
-          {event.title}
+          {event.summary}
         </p>
         <button className="p-0 m-2 text-5xl" onClick={() => setState(null)}>
           <AiOutlinePlus className="text-winc-black rotate-45 p-0 m-0 hover:text-winc-pink" />
         </button>
       </div>
-      <div className="md:text-2xl text-lg p-2">
-        {event.summary.replace(event.summary.split(" ")[0], "")}
-      </div>
-      {event.location
+      <div className="md:text-2xl text-lg p-2">{event.description}</div>
+      {event.location.startsWith("http")
         ? [
             new Date(event.start).toLocaleDateString(),
             `${startTime} - ${endTime}`,
-            event.location,
+            <Link key={self} href={event.location} class="break-all underline">
+              {event.location}
+            </Link>,
           ].map((line, index) => (
             <ListElement key={index} color={event.textColor} innerText={line} />
           ))
         : [
             new Date(event.start).toLocaleDateString(),
             `${startTime} - ${endTime}`,
-            <Link key={self} href={event.zoom} class="break-all">
-              {event.zoom}
-            </Link>,
+            event.location,
           ].map((line, index) => (
             <ListElement key={index} color={event.textColor} innerText={line} />
           ))}
