@@ -1,18 +1,18 @@
 import React from "react";
 const Event = ({ month, day, start, title, location, description }) => {
   return (
-    <div className="font-urbanist flex justify-center rounded-2xl overflow-hidden max-w-5xl my-4">
+    <div className="font-urbanist flex justify-center rounded-2xl overflow-hidden w-full my-4">
       <div className="bg-winc-black text-winc-white text-center w-1/4">
-        <div className="text-6xl font-bold pt-9">{month}</div>
-        <div className="text-6xl font-bold pt-3">{day}</div>
+        <div className="text-5xl font-bold pt-9">{month}</div>
+        <div className="text-5xl font-bold pt-3">{day}</div>
         <div className="text-2xl font-normal py-3">{start}</div>
       </div>
       <div className="flex-1 pt-3 pl-7 bg-winc-beige">
-        <p className="text-4xl text-winc-black font-bold">{title}</p>
+        <div className="text-4xl text-winc-black font-bold">{title}</div>
         <div className="flex text-winc-black items-center">
-          <p className="text-2xl flex font-normal">{location}</p>
+          <div className="text-xl flex font-light">{location}</div>
         </div>
-        <p className="text-2xl font-normal">{description}</p>
+        <div className="text-xl font-light mt-2">{description}</div>
       </div>
     </div>
   );

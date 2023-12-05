@@ -1,8 +1,10 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Event from "./Event";
 import axios from "axios";
+import Title from "../Title";
 
 const Upcoming = ({ size = 3 }) => {
   // Default size set to 3
@@ -29,23 +31,28 @@ const Upcoming = ({ size = 3 }) => {
   }, [size]);
 
   return (
-    <div className="w-full mb-20 flex justify-content items-center flex-col">
-      <p className="flex justify-center text-center text-acm-black font-lexend text-heading">
-        Upcoming Events
-      </p>
-      <br />
-      <Row className="w-11/12 flex justify-center items-stretch">
+    <div className="w-full mb-20 flex justify-center items-center flex-col">
+      <Title text="Upcoming Events" textcolor="text-winc-black" />
+      <div className="flex justify-center">
+        <div className="bg-winc-pink w-14 h-1 mt-6 mb-3"></div>
+      </div>
+      <Row className="w-full flex flex-col justify-center items-center">
         {events.length !== 0 ? (
           events.slice(0, size).map((event, index) => (
-            <Col className="p-3" md={6} lg={4} key={index}>
+            <Col className="flex w-8/12" key={index}>
               <Event
+                month={event.start
+                  .toLocaleDateString("en-US", { month: "short" })
+                  .toUpperCase()}
+                day={event.start.toLocaleDateString("en-US", {
+                  day: "2-digit",
+                })}
                 title={event.summary}
                 location={event.location}
                 start={event.start.toLocaleTimeString([], {
                   hour: "2-digit",
                   minute: "2-digit",
                 })}
-                end={event.end}
                 description={event.description}
               />
             </Col>

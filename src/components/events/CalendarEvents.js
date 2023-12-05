@@ -8,7 +8,7 @@ import CustomEvent from "./CustomEvent.js";
 import CustomHeader from "./CustomHeader.js";
 
 import { useContext } from "react";
-import EventsContext from "./EventContext.js";
+import EventContext from "./EventContext.js";
 const mLocalizer = momentLocalizer(moment);
 // const dummyEvents = [
 //   {
@@ -28,7 +28,8 @@ const mLocalizer = momentLocalizer(moment);
 // ];
 const CalendarEvents = () => {
   // const [modalEvent, setModalEvent] = useState(null);
-  const { events } = useContext(EventsContext);
+  const { events } = useContext(EventContext);
+  console.log(events);
   return (
     // events && (
     <section className="w-full flex justify-center items-center flex-col">
@@ -62,6 +63,7 @@ const CalendarEvents = () => {
         </div>
       </div>
     </section>
+    // )
   );
 };
 
