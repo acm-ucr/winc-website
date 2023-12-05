@@ -1,4 +1,4 @@
-import Upcoming from "@/components/events/Upcoming";
+// import Upcoming from "@/components/events/Upcoming";
 import Title from "@/components/Title";
 import CalendarEvents from "@/components/events/CalendarEvents";
 const Events = () => {
@@ -8,7 +8,7 @@ const Events = () => {
         <Title text="Programs and Events" textcolor="text-winc-white" />
       </div>
       <CalendarEvents />
-      <Upcoming />
+      {/* <Upcoming /> */}
     </>
   );
 };

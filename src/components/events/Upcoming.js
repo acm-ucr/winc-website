@@ -1,35 +1,11 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Event from "./Event";
-import axios from "axios";
 import Title from "../Title";
 
-const Upcoming = ({ size = 3 }) => {
-  // Default size set to 3
-  const [events, setEvents] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get(
-        `https://www.googleapis.com/calendar/v3/calendars/${
-          process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL
-        }/events?key=${
-          process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY
-        }&singleEvents=true&orderBy=starttime&timeMin=${new Date().toISOString()}&maxResults=${size}`
-      )
-      .then((response) => {
-        const calendarEvents = response.data.items.map((a) => {
-          a.start = new Date(a.start.dateTime);
-          a.end = new Date(a.end.dateTime);
-          return a;
-        });
-
-        setEvents(calendarEvents);
-      });
-  }, [size]);
-
+const Upcoming = ({ size, events }) => {
   return (
     <div className="w-full mb-20 flex justify-center items-center flex-col">
       <Title text="Upcoming Events" textcolor="text-winc-black" />
@@ -58,7 +34,7 @@ const Upcoming = ({ size = 3 }) => {
             </Col>
           ))
         ) : (
-          <Col className="text-text flex justify-center text-center text-acm-black font-lexend p-3">
+          <Col className="flex justify-center text-center text-winc-black font-urbanist p-3">
             No upcoming events, please check back later!
           </Col>
         )}
