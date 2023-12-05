@@ -6,7 +6,7 @@ import Link from "next/link";
 const ListElement = ({ innerText }) => {
   return (
     <div className="flex items-center p-2">
-      <FaCircle className="text-winc-orange mr-2" />
+      <FaCircle className="text-winc-black mr-2" />
       <div className="md:text-2xl text-lg"> {innerText} </div>
     </div>
   );
@@ -27,11 +27,11 @@ const Modal = ({ event, setState }) => {
   });
   return (
     <div
-      className={`font-urbanist font-medium fixed top-[56%] left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 w-[75vw] md:w-[50vw] bg-winc-white border-4 border-winc-orange rounded-2xl z-10`}
+      className={`font-urbanist font-medium fixed top-[56%] left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 w-[75vw] md:w-[50vw] bg-winc-white border-4 border-winc-black rounded-2xl z-10`}
     >
       <div className={`flex justify-between items-center`}>
         <p
-          className={`text-winc-black bg-winc-orange rounded-full m-0 font-bold py-2 md:py-3 px-3 md:px-4 text-lg md:text-3xl`}
+          className={`text-winc-white bg-winc-black rounded-full m-0 font-bold py-2 md:py-3 px-3 md:px-4 text-lg md:text-3xl`}
         >
           {event.title}
         </p>

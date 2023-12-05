@@ -44,7 +44,7 @@ const CalendarEvents = () => {
               header: CustomHeader,
             }}
             eventPropGetter={(event) => {
-              return { className: `!bg-winc-yellow` };
+              return { className: `!bg-winc-black` };
             }}
             dayPropGetter={(event) => {
               const bg =
