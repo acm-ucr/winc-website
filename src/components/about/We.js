@@ -2,14 +2,14 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Frame from "@/components/about/Frame";
-import about1 from "@/public/assets/about1.webp";
+import photo from "@/public/assets/about/about1.webp";
 import Title from "@/components/Title";
 
 const We = () => {
   return (
     <Row className="text-winc-black flex items-center font-urbanist py-28 px-20">
       <Col className="flex items-center justify-center">
-        <Frame x={-40} y={-40} picture={about1} />
+        <Frame x={-40} y={-40} picture={photo} />
       </Col>
       <Col className="text-left flex flex-col">
         <Title text="What do we do?" textcolor="text-winc-black" />

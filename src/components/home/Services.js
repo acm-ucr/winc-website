@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <>
       <div className="flex justify-center">
-        <div className="outline outline-offset-8 outline-winc-yellow outline-4 w-6/12 h-full bg-winc-yellow flex items-center justify-center">
+        <div className="outline outline-offset-8 outline-winc-yellow outline-4 w-6/12 h-full bg-winc-yellow flex items-center justify-center mt-20">
           <div className="flex text-center text-winc-pink text-5xl justify-center font-urbanist font-semibold p-2">
             Grow and Thrive
           </div>
