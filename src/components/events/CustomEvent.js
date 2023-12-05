@@ -9,7 +9,7 @@ const CustomEvent = ({ event }) => {
           minute: "2-digit",
         })}
         &nbsp;
-        {event.title}
+        {event.summary}
       </p>
     </div>
   );

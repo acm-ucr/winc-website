@@ -10,7 +10,7 @@ const Circle = ({ width, height, clip, image }) => {
 
   return (
     <div
-      className="flex justify-center items-center bg-winc-pink rounded-full outline outline-4 outline-offset-8 outline-winc-pink w-full h-full relative"
+      className="flex justify-center items-center bg-winc-pink rounded-full ring-4 ring-winc-pink ring-offset-8 w-full h-full relative"
       style={{ width: width, height: height }}
     >
       <Image
