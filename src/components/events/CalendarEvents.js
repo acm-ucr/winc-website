@@ -26,7 +26,7 @@ const dummyEvents = [
 const CalendarEvents = () => {
   return (
     // events && (
-    <section className="w-full flex justify-center items-center flex-col">
+    <section className="w-full flex justify-center items-center flex-col pt-16">
       <div className="mb-5 w-11/12 flex justify-center items-center">
         <div className="h-[110vh] w-full relative">
           <Calendar
