@@ -7,7 +7,9 @@ const Service = ({ icon, info, description }) => {
       <div className="flex flex-col font urbanist w-full h-full font-bold text-4xl items-center rounded-3xl text-winc-pink bg-winc-white">
         <div className="pt-10"> {icon} </div>
         <div className="py-8">{info}</div>
-        <p className="text-xl font-thin text-center px-4 pb-4">{description}</p>
+        <div className="text-xl font-light text-center px-4 pb-4">
+          {description}
+        </div>
       </div>
     </div>
   );
