@@ -10,7 +10,7 @@ import axios from "axios";
 import Upcoming from "./Upcoming.js";
 const mLocalizer = momentLocalizer(moment);
 
-const CalendarEvents = () => {
+const CalendarEvents = ({ limited = false }) => {
   const [events, setEvents] = useState([]);
   const size = 10;
 
@@ -37,35 +37,37 @@ const CalendarEvents = () => {
   return (
     events && (
       <section className="w-full flex justify-center items-center flex-col">
-        <div className="mb-5 w-11/12 flex justify-center items-center">
-          <div className="h-[110vh] w-full relative">
-            <Calendar
-              className="font-urbanist w-full m-0 p-0 text-3xl"
-              events={events}
-              localizer={mLocalizer}
-              defaultView="month"
-              views={["month"]}
-              components={{
-                event: CustomEvent,
-                toolbar: CustomToolbar,
-                header: CustomHeader,
-              }}
-              eventPropGetter={(event) => {
-                return { className: `!bg-winc-yellow` };
-              }}
-              dayPropGetter={(event) => {
-                const bg =
-                  new Date(event).toLocaleDateString() ==
-                  new Date().toLocaleDateString()
-                    ? "!bg-winc-orange"
-                    : "!bg-winc-beige";
-                return {
-                  className: `${bg} m-0 p-0`,
-                };
-              }}
-            />
+        {!limited && (
+          <div className="mb-5 w-11/12 flex justify-center items-center">
+            <div className="h-[110vh] w-full relative">
+              <Calendar
+                className="font-urbanist w-full m-0 p-0 text-3xl"
+                events={events}
+                localizer={mLocalizer}
+                defaultView="month"
+                views={["month"]}
+                components={{
+                  event: CustomEvent,
+                  toolbar: CustomToolbar,
+                  header: CustomHeader,
+                }}
+                eventPropGetter={(event) => {
+                  return { className: `!bg-winc-yellow` };
+                }}
+                dayPropGetter={(event) => {
+                  const bg =
+                    new Date(event).toLocaleDateString() ==
+                    new Date().toLocaleDateString()
+                      ? "!bg-winc-orange"
+                      : "!bg-winc-beige";
+                  return {
+                    className: `${bg} m-0 p-0`,
+                  };
+                }}
+              />
+            </div>
           </div>
-        </div>
+        )}
         <Upcoming
           events={events.filter((e) => e.start >= new Date())}
           size={3}

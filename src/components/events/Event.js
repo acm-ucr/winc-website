@@ -1,4 +1,6 @@
 import React from "react";
+import { LuExternalLink } from "react-icons/lu";
+import Link from "next/link";
 const Event = ({ month, day, start, title, location, description }) => {
   return (
     <div className="font-urbanist flex justify-center rounded-2xl overflow-hidden w-full my-4">
@@ -10,7 +12,15 @@ const Event = ({ month, day, start, title, location, description }) => {
       <div className="flex-1 pt-3 pl-7 bg-winc-beige">
         <div className="text-4xl text-winc-black font-bold">{title}</div>
         <div className="flex text-winc-black items-center">
-          <div className="text-xl flex font-light">{location}</div>
+          <div className="text-xl flex font-light">
+            {location.startsWith("http") ? (
+              <Link className="flex flex-row items-center" href={location}>
+                <LuExternalLink className="text-winc-pink" /> &nbsp;Zoom
+              </Link>
+            ) : (
+              location
+            )}
+          </div>
         </div>
         <div className="text-xl font-light mt-2">{description}</div>
       </div>

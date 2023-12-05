@@ -7,7 +7,7 @@ import Title from "../Title";
 
 const Upcoming = ({ size, events }) => {
   return (
-    <div className="w-full mb-20 flex justify-center items-center flex-col">
+    <div className="w-full my-20 flex justify-center items-center flex-col">
       <Title text="Upcoming Events" textcolor="text-winc-black" />
       <div className="flex justify-center">
         <div className="bg-winc-pink w-14 h-1 mt-6 mb-3"></div>
