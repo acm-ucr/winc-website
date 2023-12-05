@@ -9,6 +9,8 @@ import CustomHeader from "./CustomHeader.js";
 import axios from "axios";
 import Modal from "./Modal.js";
 import Upcoming from "./Upcoming.js";
+import Button from "@/components/home/Button";
+import Link from "next/link";
 const mLocalizer = momentLocalizer(moment);
 
 const CalendarEvents = ({ limited = false }) => {
@@ -78,6 +80,11 @@ const CalendarEvents = ({ limited = false }) => {
           events={events.filter((e) => e.start >= new Date())}
           size={3}
         />
+        <div className="mb-24">
+          <Link href="/events">
+            <Button text="See Calendar" />
+          </Link>
+        </div>
       </section>
     )
   );

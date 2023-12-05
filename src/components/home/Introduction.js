@@ -4,6 +4,8 @@ import Row from "react-bootstrap/Row";
 import Title from "@/components/Title";
 import Circle from "@/components/home/Circle";
 import homeWinc from "@/public/assets/homeWinc.svg";
+import Button from "@/components/home/Button";
+import Link from "next/link";
 
 const Introduction = () => {
   return (
@@ -15,6 +17,11 @@ const Introduction = () => {
           Supporting, celebrating, and advocating for women in all aspects of
           the computing field at the University of California, Riverside (UCR).
         </p>
+        <div className="mt-10 ml-40">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe5M-kEntAmPHnHNcerN6F8G5eevJs6zQJgEt3X3hcj_eNV3w/viewform">
+            <Button text="Join Now" />
+          </Link>
+        </div>
       </Col>
       <Col>
         <Circle width={700} height={700} clip="left" image={homeWinc} />
