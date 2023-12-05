@@ -54,7 +54,7 @@ const CalendarEvents = ({ limited = false }) => {
                   header: CustomHeader,
                 }}
                 eventPropGetter={(event) => {
-                  return { className: `!bg-winc-yellow` };
+                  return { className: `!bg-winc-black` };
                 }}
                 dayPropGetter={(event) => {
                   const bg =
@@ -63,11 +63,12 @@ const CalendarEvents = ({ limited = false }) => {
                       ? "!bg-winc-orange"
                       : "!bg-winc-beige";
                   return {
-                    className: `${bg} m-0 p-0`,
+                    className: `${bg} m-0 p-0 border-1 border-winc-yellow`,
                   };
                 }}
                 onSelectEvent={(event) => {
                   setModalEvent(event);
+                }}
               />
               <Modal event={modalEvent} setState={setModalEvent} />
             </div>
