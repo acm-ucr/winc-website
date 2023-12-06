@@ -3,7 +3,7 @@ import Title from "@/components/Title.js";
 import Frame from "@/components/about/Frame.js";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import about1 from "@/public/assets/about1.webp";
+import photo from "@/public/assets/about/wincgroupphoto.webp";
 
 const What = () => {
   return (
@@ -27,7 +27,7 @@ const What = () => {
       </Col>
 
       <Col className="flex items-center justify-center">
-        <Frame x={40} y={-40} picture={about1} />
+        <Frame x={40} y={-40} picture={photo} />
       </Col>
     </Row>
   );

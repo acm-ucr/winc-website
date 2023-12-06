@@ -27,7 +27,13 @@ const Officer = ({
         </a>
       </Col>
       <Col className="text-winc-pink font-urbanist whitespace-nowrap" lg={9}>
-        <Image src={image} width={256} height={256} alt={name} />
+        <Image
+          src={image}
+          alt={name}
+          width={300}
+          height={300}
+          className="object-cover aspect-square"
+        />
         <div className="text-3xl mt-2 font-semibold">{name}</div>
         <div className="text-2xl">{position}</div>
         <div className="text-md -space-y-1 mt-1">

@@ -1,15 +1,15 @@
-import Chloe from "@/public/assets/Board_Photos/Chloe_Au.webp";
-import Padma from "@/public/assets/Board_Photos/Padma_B.webp";
-import Anisha from "@/public/assets/Board_Photos/Anisha_N.webp";
-import Jaydah from "@/public/assets/Board_Photos/Jaydah_J.webp";
-import Eva from "@/public/assets/Board_Photos/Eva_C.webp";
-import Bella from "@/public/assets/Board_Photos/Bella_C.webp";
-import Ramya from "@/public/assets/Board_Photos/Ramya_M.webp";
-import Aliyah from "@/public/assets/Board_Photos/Aliyah_O.webp";
-import Fatima from "@/public/assets/Board_Photos/Fatima_B.webp";
-import Pamodya from "@/public/assets/Board_Photos/Pamodya_P.webp";
-import Elaheh from "@/public/assets/Board_Photos/Elaheh_S.webp";
-import Christina from "@/public/assets/Board_Photos/Cristina_S.webp";
+import Chloe from "@/public/assets/Board_Photos/Chloe.webp";
+import Padma from "@/public/assets/Board_Photos/Padma.webp";
+import Anisha from "@/public/assets/Board_Photos/Anisha.webp";
+import Jaydah from "@/public/assets/Board_Photos/Jaydah.webp";
+import Eva from "@/public/assets/Board_Photos/Eva.webp";
+import Bella from "@/public/assets/Board_Photos/Bella.webp";
+import Ramya from "@/public/assets/Board_Photos/Ramya.webp";
+import Aliyah from "@/public/assets/Board_Photos/Aliyah.webp";
+import Fatima from "@/public/assets/Board_Photos/Fatima.webp";
+import Pamodya from "@/public/assets/Board_Photos/Pamodya.webp";
+import Elaheh from "@/public/assets/Board_Photos/Elaheh.webp";
+import Christina from "@/public/assets/Board_Photos/Christina.webp";
 
 const Board = [
   {
