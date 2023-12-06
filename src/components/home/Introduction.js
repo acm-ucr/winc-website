@@ -3,6 +3,8 @@ import React from "react";
 import Title from "@/components/Title";
 import landing from "@/public/assets/home/Intro.svg";
 import Image from "next/image";
+import Button from "@/components/home/Button";
+import Link from "next/link";
 
 const Introduction = () => {
   return (
@@ -13,6 +15,11 @@ const Introduction = () => {
         <div className="flex text-winc-black font-normal w-9/12 text-2xl pt-6">
           Supporting, celebrating, and advocating for women in all aspects of
           the computing field at the University of California, Riverside (UCR).
+        </div>
+        <div className="mt-10 ml-40">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe5M-kEntAmPHnHNcerN6F8G5eevJs6zQJgEt3X3hcj_eNV3w/viewform">
+            <Button text="Join Now" />
+          </Link>
         </div>
       </div>
       <div className="flex w-7/12">
