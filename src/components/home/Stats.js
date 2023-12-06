@@ -12,8 +12,8 @@ import Stat from "./Stat";
 
 const Stats = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-winc-pink outline outline-8 outline-winc-pink outline-offset-8 mb-16">
-      <Row className="flex justify-center w-11/12 h-full my-16">
+    <div className="flex flex-col justify-center items-center bg-winc-pink outline outline-8 outline-winc-pink outline-offset-8 mt-32">
+      <Row className="flex justify-center w-11/12 h-full my-8">
         <Col
           sm={6}
           md={4}
