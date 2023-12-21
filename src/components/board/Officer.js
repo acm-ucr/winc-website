@@ -15,25 +15,25 @@ const Officer = ({
   hobbies,
 }) => {
   return (
-    <div className="flex flex-col bg-winc-beige p-4 w-11/12 shadow-[12px_-10px_0px_2px] shadow-winc-orange">
-      <div className="flex flex-row justify-between">
+    <div className="flex flex-col bg-winc-yellow p-3 w-11/12 shadow-[12px_-10px_0px_2px] shadow-winc-orange">
+      <div className="flex flex-row justify-between w-full">
         <Image
           src={image}
           alt={name}
-          width={300}
-          height={300}
-          className="object-cover aspect-square w-10/12"
+          width={100}
+          height={100}
+          className="object-cover aspect-square w-11/12"
         />
-        <div className="flex flex-col justify-center space-y-4">
-          <a href={linkedin} className="text-winc-pink">
-            <LiaLinkedinIn size="38" />
+        <div className="flex flex-col space-y-4 justify-center items-center ml-1">
+          <a href={linkedin} className="text-winc-black">
+            <LiaLinkedinIn size="44" />
           </a>
-          <a href={"mailto:" + email} className="text-winc-pink ml-1">
-            <IoMdMail size="30" />
+          <a href={"mailto:" + email} className="text-winc-black ml-1">
+            <IoMdMail size="36" />
           </a>
         </div>
       </div>
-      <div className="text-winc-pink font-urbanist">
+      <div className="text-winc-black font-urbanist">
         <div className="text-3xl mt-3 font-semibold">{name}</div>
         <div className="text-2xl">{position}</div>
         <div className="text-md -space-y-1 mt-1">
