@@ -1,10 +1,8 @@
 import React from "react";
 
-const Button = ({ backgroundColor, text, textColor }) => {
+const Button = ({ text }) => {
   return (
-    <div
-      className={`${backgroundColor} ${textColor} border-2 border-winc-black rounded-lg w-24`}
-    >
+    <div className="w-2/5 py-1 bg-winc-pink text-winc-white outline outline-4 outline-winc-pink outline-offset-4 font-bold flex justify-center items-center text-3xl italic">
       {text}
     </div>
   );
