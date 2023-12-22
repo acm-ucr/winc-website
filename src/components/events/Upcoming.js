@@ -4,7 +4,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Event from "./Event";
 import Title from "../Title";
-
+import Button from "../home/Button";
+import Link from "next/link";
 const Upcoming = ({ size, events }) => {
   return (
     <div className="w-full my-20 flex justify-center items-center flex-col">
@@ -34,10 +35,13 @@ const Upcoming = ({ size, events }) => {
             </Col>
           ))
         ) : (
-          <Col className="flex justify-center text-center text-winc-black font-urbanist p-3">
+          <Col className="flex justify-center text-xl text-center text-winc-black font-urbanist p-3">
             No upcoming events, please check back later!
           </Col>
         )}
+        <Link href="/events" className="flex justify-center my-4 w-2/3">
+          <Button text="See Calendar" />
+        </Link>
       </Row>
     </div>
   );

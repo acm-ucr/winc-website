@@ -9,7 +9,7 @@ import { Col } from "react-bootstrap";
 
 const Services = () => {
   return (
-    <div className="bg-winc-pink flex flex-col w-full justify-center items-center p-8 outline outline-8 outline-winc-pink outline-offset-8 my-8">
+    <div className="bg-winc-pink flex flex-col w-full justify-center items-center p-8 outline outline-8 outline-winc-pink outline-offset-8 my-16">
       <div className="flex text-center justify-center pt-2 pb-16">
         <Title text="Become a Member" textcolor="text-winc-white" />
       </div>

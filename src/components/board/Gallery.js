@@ -1,5 +1,3 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Title from "@/components/Title";
 import Officer from "@/components/board/Officer";
 import Board from "@/data/Board";
@@ -8,13 +6,13 @@ const Gallery = () => {
   return (
     <>
       <div className="flex justify-center my-14">
-        <Title text="Meet the Team" />
+        <Title text="Meet Our Team" textcolor="text-winc-black" />
       </div>
-      <div className="bg-winc-pink outline outline-8 outline-offset-8 outline-winc-pink my-8">
-        <div className="flex bg-winc-pink w-full px-12 py-8 outline outline-8 outline-offset-8 outline-winc-white">
-          <Row className="w-full">
+      <div className="bg-winc-pink outline outline-8 outline-offset-8 outline-winc-black mb-20">
+        <div className="flex bg-winc-beige w-full px-12 py-8 outline outline-8 outline-offset-8 outline-winc-white">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 w-full gap-2">
             {Board.map((officer, index) => (
-              <Col key={index} lg={3} className="flex justify-center py-6 px-3">
+              <div key={index} className="flex justify-center py-6">
                 <Officer
                   image={officer.image}
                   name={officer.name}
@@ -26,9 +24,9 @@ const Gallery = () => {
                   pronouns={officer.pronouns}
                   hobbies={officer.hobbies}
                 />
-              </Col>
+              </div>
             ))}
-          </Row>
+          </div>
         </div>
       </div>
     </>

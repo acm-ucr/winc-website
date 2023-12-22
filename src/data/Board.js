@@ -1,22 +1,22 @@
-import Chloe from "@/public/assets/Board_Photos/Chloe_Au.webp";
-import Padma from "@/public/assets/Board_Photos/Padma_B.webp";
-import Anisha from "@/public/assets/Board_Photos/Anisha_N.webp";
-import Jaydah from "@/public/assets/Board_Photos/Jaydah_J.webp";
-import Eva from "@/public/assets/Board_Photos/Eva_C.webp";
-import Bella from "@/public/assets/Board_Photos/Bella_C.webp";
-import Ramya from "@/public/assets/Board_Photos/Ramya_M.webp";
-import Aliyah from "@/public/assets/Board_Photos/Aliyah_O.webp";
-import Fatima from "@/public/assets/Board_Photos/Fatima_B.webp";
-import Pamodya from "@/public/assets/Board_Photos/Pamodya_P.webp";
-import Elaheh from "@/public/assets/Board_Photos/Elaheh_S.webp";
-import Christina from "@/public/assets/Board_Photos/Cristina_S.webp";
+import Chloe from "@/public/assets/Board_Photos/Chloe.webp";
+import Padma from "@/public/assets/Board_Photos/Padma.webp";
+import Anisha from "@/public/assets/Board_Photos/Anisha.webp";
+import Jaydah from "@/public/assets/Board_Photos/Jaydah.webp";
+import Eva from "@/public/assets/Board_Photos/Eva.webp";
+import Bella from "@/public/assets/Board_Photos/Bella.webp";
+import Ramya from "@/public/assets/Board_Photos/Ramya.webp";
+import Aliyah from "@/public/assets/Board_Photos/Aliyah.webp";
+import Fatima from "@/public/assets/Board_Photos/Fatima.webp";
+import Pamodya from "@/public/assets/Board_Photos/Pamodya.webp";
+import Elaheh from "@/public/assets/Board_Photos/Elaheh.webp";
+import Christina from "@/public/assets/Board_Photos/Christina.webp";
 
 const Board = [
   {
     image: Chloe,
     name: "Chloe Au",
     position: "President",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/chloe-au-240124186/",
     email: "cau009@ucr.edu",
     year: "3rd",
     major: "computer science",
@@ -27,18 +27,18 @@ const Board = [
     image: Padma,
     name: "Padma Bellamkonda",
     position: "Vice President",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/padma-bellamkonda/",
     email: "pbell012@ucr.edu",
     year: "3rd",
     major: "computer science",
     pronouns: "she/her",
-    Hobbies: "Trying new foods and solving sudoku puzzles",
+    hobbies: "Trying new foods and solving sudoku puzzles",
   },
   {
     image: Anisha,
     name: "Anisha Nawar",
     position: "Secretary",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/anisha-nawar-44232826b/",
     email: "anawa007@ucr.edu",
     year: "1st",
     major: "computer science",
@@ -49,7 +49,7 @@ const Board = [
     image: Jaydah,
     name: "Jaydah Julian",
     position: "Treasurer",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/jaydah-julian-a33298225/",
     email: "jjuli010@ucr.edu",
     year: "3rd",
     major: "computer science",
@@ -63,11 +63,10 @@ const Board = [
     image: Eva,
     name: "Eva Choudhary",
     position: "Membership Chair",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/evachoudhary/",
     email: "echou024@ucr.edu",
     year: "2rd",
     major: "data science",
-    starsign: "piceses",
     pronouns: "she/her",
   },
   {
@@ -85,7 +84,7 @@ const Board = [
     image: Ramya,
     name: "Ramya Madugula",
     position: "Operations Co-Chair",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/ramya-madugula-6132051b4/",
     email: "rmadu002@ucr.edu",
     year: "2nd",
     major: "CSBA",
@@ -96,7 +95,7 @@ const Board = [
     image: Aliyah,
     name: "Aliyah Owens",
     position: "Marketing Chair",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/aliyahaowens/",
     email: "aowen020@ucr.edu",
     year: "3rd",
     major: "computer science",
@@ -107,7 +106,7 @@ const Board = [
     image: Fatima,
     name: "Fatima Bashir",
     position: "Recruitment Chair",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/fatima-bashir-6122a0274/",
     email: "fbash006@ucr.edu",
     year: "3rd",
     major: "computer science",
@@ -121,12 +120,11 @@ const Board = [
     image: Pamodya,
     name: "Pamodya Peiris",
     position: "Graduate Outreach Chair",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/pamodyapeiris/",
     email: "ppeir002@ucr.edu",
     year: "3rd",
     major: "computer science",
     pronouns: "she/her",
-    starsign: "capricorn",
   },
   {
     /*
@@ -135,11 +133,10 @@ const Board = [
     image: Elaheh,
     name: "Elaheh Sadredini",
     position: "Faculty Advisor",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/elaheh-sadredini-phd-823002b2/",
     email: "elaheh@cs.ucr.edu",
     year: "2rd",
     major: "data science",
-    starsign: "piceses",
     pronouns: "she/her",
   },
   {
