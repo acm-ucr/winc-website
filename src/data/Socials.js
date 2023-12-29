@@ -5,7 +5,6 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 
 const Socials = [
   {
@@ -14,17 +13,12 @@ const Socials = [
     image: <FaInstagram className="text-4xl"></FaInstagram>,
   },
   {
-    path: "https://mail.google.com",
-    title: "Email",
-    image: <MdEmail className="text-4xl"></MdEmail>,
-  },
-  {
-    path: "https://github.com",
+    path: "https://github.com/winc-ucr",
     title: " Github",
     image: <FaGithub className="text-4xl"></FaGithub>,
   },
   {
-    path: "https://app.slack.com/",
+    path: "https://join.slack.com/t/wincucr/shared_invite/zt-27xdsp07m-sPKN9hnqg0KRzYi832tm7Q",
     title: "Slack",
     image: <FaSlack className="text-4xl"></FaSlack>,
   },
@@ -34,7 +28,7 @@ const Socials = [
     image: <FaLinkedinIn className="text-4xl"></FaLinkedinIn>,
   },
   {
-    path: "https://www.youtube.com",
+    path: "https://www.youtube.com/@womenincomputingatucr1832",
     title: "Youtube",
     image: <FaYoutube className="text-4xl"></FaYoutube>,
   },

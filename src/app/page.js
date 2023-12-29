@@ -10,7 +10,7 @@ const Home = () => {
       <Empower />
       <Stats />
       <Services />
-      <CalendarEvents limited={true} />
+      <CalendarEvents limited={true} show={true} />
     </>
   );
 };

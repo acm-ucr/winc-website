@@ -8,7 +8,7 @@ const CustomToolbar = (event) => {
         onClick={() => event.onNavigate("PREV")}
         className="text-winc-pink hover:cursor-pointer "
       />
-      <div className="text-center text-5xl p-4 text-winc-black">
+      <div className="text-center text-2xl md:text-5xl p-4 text-winc-black">
         {event.date.toLocaleDateString("en-US", { month: "long" })}
         &nbsp;
         {event.date.getFullYear() % 100}

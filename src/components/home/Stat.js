@@ -1,11 +1,11 @@
-"use client";
+// "use client";
 import React from "react";
 
 // style the component here
 const Stat = ({ icon, stat, type }) => {
   return (
     <div
-      className={`flex flex-row w-11/12 h-full items-center rounded-full border-8 border-winc-yellow ring-8 ring-winc-orange m-4 text-winc-pink bg-winc-white py-3`}
+      className={`flex flex-row w-10/12 justify-center h-full items-center rounded-full border-8 border-winc-yellow ring-8 ring-winc-orange m-4 text-winc-pink bg-winc-white py-4`}
     >
       <div className="ml-6 mr-0 w-2/12">{icon}</div>
       <div className="flex flex-col justify-center w-10/12">
