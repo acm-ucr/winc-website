@@ -36,12 +36,14 @@ const Officer = ({
       <div className="text-winc-black font-urbanist">
         <div className="text-3xl mt-3 font-semibold">{name}</div>
         <div className="text-2xl">{position}</div>
-        <div className="text-md -space-y-1 mt-1">
-          <div>
-            {year} year · {major}
-          </div>
+        <div className="text-base -space-y-1 mt-1">
+          {year && major && (
+            <div>
+              {year} year · {major}
+            </div>
+          )}
           <div>Pronouns: {pronouns}</div>
-          <div className="leading-5">Hobbies: {hobbies}</div>
+          {hobbies && <div className="leading-5">Hobbies: {hobbies}</div>}
         </div>
       </div>
     </div>

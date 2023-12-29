@@ -11,7 +11,7 @@ import Modal from "./Modal.js";
 import Upcoming from "./Upcoming.js";
 const mLocalizer = momentLocalizer(moment);
 
-const CalendarEvents = ({ limited = false }) => {
+const CalendarEvents = ({ limited = false, show }) => {
   const [events, setEvents] = useState([]);
   const [modalEvent, setModalEvent] = useState(null);
   const size = 10;
@@ -77,6 +77,7 @@ const CalendarEvents = ({ limited = false }) => {
         <Upcoming
           events={events.filter((e) => e.start >= new Date())}
           size={3}
+          show={show}
         />
       </section>
     )

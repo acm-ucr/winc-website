@@ -2,7 +2,6 @@ import Chloe from "@/public/assets/Board_Photos/Chloe.webp";
 import Padma from "@/public/assets/Board_Photos/Padma.webp";
 import Anisha from "@/public/assets/Board_Photos/Anisha.webp";
 import Jaydah from "@/public/assets/Board_Photos/Jaydah.webp";
-import Eva from "@/public/assets/Board_Photos/Eva.webp";
 import Bella from "@/public/assets/Board_Photos/Bella.webp";
 import Ramya from "@/public/assets/Board_Photos/Ramya.webp";
 import Aliyah from "@/public/assets/Board_Photos/Aliyah.webp";
@@ -56,24 +55,24 @@ const Board = [
     pronouns: "she/her",
     hobbies: "Love to read and collect books",
   },
-  {
-    /*
-        No infomation 
-    */
-    image: Eva,
-    name: "Eva Choudhary",
-    position: "Membership Chair",
-    linkedin: "https://www.linkedin.com/in/evachoudhary/",
-    email: "echou024@ucr.edu",
-    year: "2rd",
-    major: "data science",
-    pronouns: "she/her",
-  },
+  // {
+  //   /*
+  //       No infomation
+  //   */
+  //   image: Eva,
+  //   name: "Eva Choudhary",
+  //   position: "Membership Chair",
+  //   linkedin: "https://www.linkedin.com/in/evachoudhary/",
+  //   email: "echou024@ucr.edu",
+  //   year: "2rd",
+  //   major: "data science",
+  //   pronouns: "she/her",
+  // },
   {
     image: Bella,
-    name: "Bella Gonzalez",
+    name: "Kathalinne Bella Gonzalez",
     position: "Operations Co-Chair",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "www.linkedin.com/in/kathalinnegonzalez",
     email: "kgonz192@ucr.edu",
     year: "3rd",
     major: "computer engineering",
@@ -135,15 +134,16 @@ const Board = [
     position: "Faculty Advisor",
     linkedin: "https://www.linkedin.com/in/elaheh-sadredini-phd-823002b2/",
     email: "elaheh@cs.ucr.edu",
-    year: "2rd",
-    major: "data science",
+    // year: "2rd",
+    // major: "data science",
     pronouns: "she/her",
+    hobbies: "Machine Learning and Data Mining",
   },
   {
     image: Christina,
     name: "Christina Serrato",
     position: "Marketing Chair",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/christina-serrato-87b851261/",
     email: "cserr037@ucr.edu",
     year: "3rd",
     major: "computer science",

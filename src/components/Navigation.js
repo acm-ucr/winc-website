@@ -64,7 +64,7 @@ const Navigation = () => {
             as={Link}
             eventkey="6"
             href="https://docs.google.com/forms/d/e/1FAIpQLSe5M-kEntAmPHnHNcerN6F8G5eevJs6zQJgEt3X3hcj_eNV3w/viewform"
-            className="flex justify-center items-center mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap"
+            className="flex justify-center items-center mb-0 w-full py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap"
           >
             <Button />
           </Nav.Link>
