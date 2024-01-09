@@ -10,7 +10,7 @@ const What = () => {
         <Frame x={40} y={-40} picture={photo} />
       </div>
       <div className="flex flex-col text-right w-full ">
-        <div className="flex justify-end w-full">
+        <div className="flex justify-center md:justify-end">
           <Title text="What is WINC?" textcolor="text-winc-black" />
         </div>
 
