@@ -22,21 +22,21 @@ const Officer = ({
           alt={name}
           width={100}
           height={100}
-          className="object-cover aspect-square w-11/12"
+          className="object-cover aspect-square w-10/12"
         />
-        <div className="flex flex-col space-y-4 justify-center items-center ml-1">
+        <div className="flex flex-col space-y-4 justify-center items-center ml-2">
           <a href={linkedin} className="text-winc-black">
-            <LiaLinkedinIn size="44" />
+            <LiaLinkedinIn className="text-3xl md:text-4xl" />
           </a>
           <a href={"mailto:" + email} className="text-winc-black ml-1">
-            <IoMdMail size="36" />
+            <IoMdMail className="text-3xl md:text-4xl" />
           </a>
         </div>
       </div>
       <div className="text-winc-black font-urbanist">
-        <div className="text-3xl mt-3 font-semibold">{name}</div>
-        <div className="text-2xl">{position}</div>
-        <div className="text-base -space-y-1 mt-1">
+        <div className="text-2xl md:text-3xl mt-3 font-semibold">{name}</div>
+        <div className="text-xl md:text-2xl">{position}</div>
+        <div className="text-sm md:text-base -space-y-1 mt-1">
           {year && major && (
             <div>
               {year} year · {major}

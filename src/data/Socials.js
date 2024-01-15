@@ -4,33 +4,39 @@ import {
   FaSlack,
   FaLinkedinIn,
   FaYoutube,
+  FaEnvelope,
 } from "react-icons/fa";
 
 const Socials = [
   {
+    path: "wincucr@gmail.com",
+    title: "Mail",
+    image: <FaEnvelope />,
+  },
+  {
     path: "https://www.instagram.com/wincucr/",
     title: "Instagram",
-    image: <FaInstagram className="text-4xl"></FaInstagram>,
+    image: <FaInstagram />,
   },
   {
     path: "https://github.com/winc-ucr",
     title: " Github",
-    image: <FaGithub className="text-4xl"></FaGithub>,
+    image: <FaGithub />,
   },
   {
     path: "https://join.slack.com/t/wincucr/shared_invite/zt-27xdsp07m-sPKN9hnqg0KRzYi832tm7Q",
     title: "Slack",
-    image: <FaSlack className="text-4xl"></FaSlack>,
+    image: <FaSlack />,
   },
   {
-    path: "https://www.linkedin.com",
+    path: "https://www.linkedin.com/company/ucr-women-in-computing/",
     title: "LinkdIn",
-    image: <FaLinkedinIn className="text-4xl"></FaLinkedinIn>,
+    image: <FaLinkedinIn />,
   },
   {
     path: "https://www.youtube.com/@womenincomputingatucr1832",
     title: "Youtube",
-    image: <FaYoutube className="text-4xl"></FaYoutube>,
+    image: <FaYoutube />,
   },
 ];
 

@@ -10,8 +10,8 @@ import Stat from "./Stat";
 
 const Stats = () => {
   return (
-    <div className="border-y-8  border-winc-pink py-2 mt-24 w-full">
-      <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center bg-winc-pink w-full md:px-8 py-10">
+    <div className="border-y-8  border-winc-pink py-2 mt-12 md:mt-24 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center bg-winc-pink w-full md:px-8 py-6 md:py-10">
         <div className="flex justify-center items-center">
           <Stat
             icon={<FaChalkboardTeacher className="text-5xl md:text-8xl" />}
