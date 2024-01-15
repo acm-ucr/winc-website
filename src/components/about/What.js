@@ -9,15 +9,15 @@ const What = () => {
       <div className="block md:hidden items-center justify-center">
         <Frame x={40} y={-40} picture={photo} />
       </div>
-      <div className="flex flex-col text-right w-full ">
+      <div className="flex flex-col justify-center items-center md:items-end w-full ">
         <div className="flex justify-center md:justify-end">
           <Title text="What is WINC?" textcolor="text-winc-black" />
         </div>
 
-        <div className="flex justify-center md:justify-end w-full">
-          <div className="bg-winc-pink w-14 h-1 mt-6"></div>
+        <div className="flex justify-center md:justify-end w-full mb-3 md:mb-0">
+          <div className="bg-winc-pink w-14 h-1 mt-3 md:mt-6"></div>
         </div>
-        <div className="text-left font-normal text-lg md:text-2xl w-full md:mt-20">
+        <div className="text-center font-normal text-lg md:text-2xl w-full md:mt-20">
           WINC is the University of California, Riverside&lsquo;s ACM-W chapter
           dedicated to empowering and supporting a network of women in tech.
           <br />
