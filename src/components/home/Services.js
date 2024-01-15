@@ -7,12 +7,12 @@ import Title from "../Title";
 const Services = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-10 md:mt-20">
-      <Title text="Grow and Thrive" textcolor="text-winc-black" />
+      <Title text="Grow And Thrive" textcolor="text-winc-black" />
       <div className="flex justify-center">
-        <div className="bg-winc-pink w-14 h-1 mt-2 md:mt-4"></div>
+        <div className="bg-winc-pink w-14 h-1 mt-4"></div>
       </div>
 
-      <div className="flex justify-center my-4 md:my-8 text-lg md:text-2xl text-center font-normal font-urbanist text-winc-black">
+      <div className="flex justify-center my-4 md:my-8 text-lg md:text-2xl text-center font-normal w-10/12 md:w-full font-urbanist text-winc-black">
         <p>
           We offer all the opportunities and resources necessary for success
         </p>
