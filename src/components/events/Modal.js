@@ -40,23 +40,39 @@ const Modal = ({ event, setState }) => {
         </button>
       </div>
       <div className="md:text-2xl text-lg p-2">{event.description}</div>
-      {event.location.startsWith("http")
-        ? [
-            new Date(event.start).toLocaleDateString(),
-            `${startTime} - ${endTime}`,
-            <Link key={self} href={event.location} class="break-all underline">
-              {event.location}
-            </Link>,
-          ].map((line, index) => (
-            <ListElement key={index} color={event.textColor} innerText={line} />
-          ))
-        : [
-            new Date(event.start).toLocaleDateString(),
-            `${startTime} - ${endTime}`,
-            event.location,
-          ].map((line, index) => (
-            <ListElement key={index} color={event.textColor} innerText={line} />
-          ))}
+      {event.location && (
+        <div>
+          {event.location.startsWith("http")
+            ? [
+                new Date(event.start).toLocaleDateString(),
+                `${startTime} - ${endTime}`,
+                <Link
+                  key={self}
+                  href={event.location}
+                  class="break-all underline"
+                >
+                  {event.location}
+                </Link>,
+              ].map((line, index) => (
+                <ListElement
+                  key={index}
+                  color={event.textColor}
+                  innerText={line}
+                />
+              ))
+            : [
+                new Date(event.start).toLocaleDateString(),
+                `${startTime} - ${endTime}`,
+                event.location,
+              ].map((line, index) => (
+                <ListElement
+                  key={index}
+                  color={event.textColor}
+                  innerText={line}
+                />
+              ))}
+        </div>
+      )}
     </div>
   );
 };
