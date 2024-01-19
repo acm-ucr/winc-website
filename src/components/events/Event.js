@@ -14,15 +14,17 @@ const Event = ({ month, day, start, title, location, description }) => {
           {title}
         </div>
         <div className="flex text-winc-black items-center">
-          <div className="text-base md:text-xl flex font-light">
-            {location.startsWith("http") ? (
-              <Link className="flex flex-row items-center" href={location}>
-                <LuExternalLink className="text-winc-pink" /> &nbsp;Zoom
-              </Link>
-            ) : (
-              location
-            )}
-          </div>
+          {location && (
+            <div className="text-base md:text-xl flex font-light">
+              {location.startsWith("http") ? (
+                <Link className="flex flex-row items-center" href={location}>
+                  <LuExternalLink className="text-winc-pink" /> &nbsp;Zoom
+                </Link>
+              ) : (
+                location
+              )}
+            </div>
+          )}
         </div>
         <div className="text-base md:text-xl font-light mt-2">
           {description}
