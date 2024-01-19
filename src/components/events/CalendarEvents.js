@@ -14,6 +14,7 @@ const mLocalizer = momentLocalizer(moment);
 const CalendarEvents = ({ limited = false, show }) => {
   const [events, setEvents] = useState([]);
   const [modalEvent, setModalEvent] = useState(null);
+  const [date, setDate] = useState(new Date());
   const size = 10;
 
   useEffect(() => {
@@ -44,6 +45,7 @@ const CalendarEvents = ({ limited = false, show }) => {
             <div className="h-[110vh] w-full relative">
               <Calendar
                 className="font-urbanist w-full m-0 p-0 text-lg md:text-3xl"
+                date={date}
                 events={events}
                 localizer={mLocalizer}
                 defaultView="month"
@@ -52,6 +54,9 @@ const CalendarEvents = ({ limited = false, show }) => {
                   event: CustomEvent,
                   toolbar: CustomToolbar,
                   header: CustomHeader,
+                }}
+                onNavigate={(newDate) => {
+                  setDate(newDate);
                 }}
                 eventPropGetter={(event) => {
                   return { className: `!bg-winc-black` };
