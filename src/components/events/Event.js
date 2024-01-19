@@ -9,7 +9,7 @@ const Event = ({ month, day, start, title, location, description }) => {
         <div className="text-xl md:text-5xl font-bold pt-3">{day}</div>
         <div className="text-base md:text-2xl font-normal py-3">{start}</div>
       </div>
-      <div className="flex-1 pt-3 pl-7 bg-winc-beige">
+      <div className="flex-1 pt-3 pl-7 bg-winc-beige w-3/4 overflow-auto rounded-r-2xl">
         <div className="text-lg md:text-4xl text-winc-black font-bold">
           {title}
         </div>

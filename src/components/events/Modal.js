@@ -27,7 +27,7 @@ const Modal = ({ event, setState }) => {
   });
   return (
     <div
-      className={`font-urbanist font-medium fixed top-[56%] left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 w-[75vw] md:w-[50vw] bg-winc-white border-4 border-winc-black rounded-2xl z-10`}
+      className={`font-urbanist font-medium fixed top-[56%] left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 w-[75vw] md:w-[50vw] bg-winc-white border-4 border-winc-black rounded-2xl z-10 overflow-y-auto max-h-[40vw]`}
     >
       <div className={`flex justify-between items-center`}>
         <p
