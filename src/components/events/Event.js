@@ -1,6 +1,8 @@
 import React from "react";
 import { LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
+import reactHtmlParser from "html-react-parser";
+
 const Event = ({ month, day, start, title, location, description }) => {
   return (
     <div className="font-urbanist flex justify-center rounded-2xl overflow-hidden w-full my-4">
@@ -27,7 +29,7 @@ const Event = ({ month, day, start, title, location, description }) => {
           )}
         </div>
         <div className="text-base md:text-xl font-light mt-2">
-          {description}
+          {description ? reactHtmlParser(description) : ""}
         </div>
       </div>
     </div>
