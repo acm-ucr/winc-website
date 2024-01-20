@@ -2,6 +2,7 @@ import React from "react";
 import { FaCircle } from "react-icons/fa";
 import { AiOutlinePlus } from "react-icons/ai";
 import Link from "next/link";
+import reactHtmlParser from "html-react-parser";
 
 const ListElement = ({ innerText }) => {
   return (
@@ -39,7 +40,9 @@ const Modal = ({ event, setState }) => {
           <AiOutlinePlus className="text-winc-black rotate-45 p-0 m-0 hover:text-winc-pink" />
         </button>
       </div>
-      <div className="md:text-2xl text-lg p-2">{event.description}</div>
+      <div className="md:text-2xl text-lg p-2">
+        {event.description ? reactHtmlParser(event.description) : " "}
+      </div>
       {event.location && (
         <div>
           {event.location.startsWith("http")
