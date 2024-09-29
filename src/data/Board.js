@@ -14,7 +14,7 @@ const Board = [
     position: "President",
     linkedin: "https://www.linkedin.com/in/padma-bellamkonda/",
     email: "pbell012@ucr.edu",
-    year: "4rd",
+    year: "4th",
     major: "computer science",
     pronouns: "she/her",
   },
