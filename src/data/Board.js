@@ -1,37 +1,42 @@
-import Chloe from "@/public/assets/Board_Photos/Chloe.webp";
-import Padma from "@/public/assets/Board_Photos/Padma.webp";
-import Anisha from "@/public/assets/Board_Photos/Anisha.webp";
-import Jaydah from "@/public/assets/Board_Photos/Jaydah.webp";
-import Bella from "@/public/assets/Board_Photos/Bella.webp";
-import Ramya from "@/public/assets/Board_Photos/Ramya.webp";
-import Aliyah from "@/public/assets/Board_Photos/Aliyah.webp";
-import Fatima from "@/public/assets/Board_Photos/Fatima.webp";
-import Pamodya from "@/public/assets/Board_Photos/Pamodya.webp";
-import Elaheh from "@/public/assets/Board_Photos/Elaheh.webp";
-import Christina from "@/public/assets/Board_Photos/Christina.webp";
+import Padma from "@/public/assets/board/padma.jpg";
+import Bella from "@/public/assets/board/bella.jpg";
+import Jaydah from "@/public/assets/board/jaydah.jpg";
+import Anisha from "@/public/assets/board/anisha.png";
+import Fatima from "@/public/assets/board/fatima.png";
+import Christina from "@/public/assets/board/christina.png";
+import Hailey from "@/public/assets/board/hailey.png";
+import Ramya from "@/public/assets/board/ramya.png";
 
 const Board = [
   {
-    image: Chloe,
-    name: "Chloe Au",
-    position: "President",
-    linkedin: "https://www.linkedin.com/in/chloe-au-240124186/",
-    email: "cau009@ucr.edu",
-    year: "3rd",
-    major: "computer science",
-    pronouns: "she/her",
-    hobbies: "Reading books and loves exploring nature",
-  },
-  {
     image: Padma,
     name: "Padma Bellamkonda",
-    position: "Vice President",
+    position: "President",
     linkedin: "https://www.linkedin.com/in/padma-bellamkonda/",
     email: "pbell012@ucr.edu",
-    year: "3rd",
+    year: "4rd",
     major: "computer science",
     pronouns: "she/her",
-    hobbies: "Trying new foods and solving sudoku puzzles",
+  },
+  {
+    image: Bella,
+    name: "Kathalinne Bella Gonzalez",
+    position: "VP Internal",
+    linkedin: "www.linkedin.com/in/kathalinnegonzalez",
+    email: "kgonz192@ucr.edu",
+    year: "4th",
+    major: "computer engineering",
+    pronouns: "she/her",
+  },
+  {
+    image: Jaydah,
+    name: "Jaydah Julian",
+    position: "VP External",
+    linkedin: "https://www.linkedin.com/in/jaydah-julian-a33298225/",
+    email: "jjuli010@ucr.edu",
+    year: "4th",
+    major: "computer science",
+    pronouns: "she/her",
   },
   {
     image: Anisha,
@@ -39,116 +44,49 @@ const Board = [
     position: "Secretary",
     linkedin: "https://www.linkedin.com/in/anisha-nawar-44232826b/",
     email: "anawa007@ucr.edu",
-    year: "1st",
-    major: "computer science",
-    pronouns: "she/her",
-    hobbies: "Painting, and volunteering",
-  },
-  {
-    image: Jaydah,
-    name: "Jaydah Julian",
-    position: "Treasurer",
-    linkedin: "https://www.linkedin.com/in/jaydah-julian-a33298225/",
-    email: "jjuli010@ucr.edu",
-    year: "3rd",
-    major: "computer science",
-    pronouns: "she/her",
-    hobbies: "Love to read and collect books",
-  },
-  // {
-  //   /*
-  //       No infomation
-  //   */
-  //   image: Eva,
-  //   name: "Eva Choudhary",
-  //   position: "Membership Chair",
-  //   linkedin: "https://www.linkedin.com/in/evachoudhary/",
-  //   email: "echou024@ucr.edu",
-  //   year: "2rd",
-  //   major: "data science",
-  //   pronouns: "she/her",
-  // },
-  {
-    image: Bella,
-    name: "Kathalinne Bella Gonzalez",
-    position: "Operations Co-Chair",
-    linkedin: "www.linkedin.com/in/kathalinnegonzalez",
-    email: "kgonz192@ucr.edu",
-    year: "3rd",
-    major: "computer engineering",
-    pronouns: "she/her",
-    hobbies: "Photography and Gardening",
-  },
-  {
-    image: Ramya,
-    name: "Ramya Madugula",
-    position: "Operations Co-Chair",
-    linkedin: "https://www.linkedin.com/in/ramya-madugula-6132051b4/",
-    email: "rmadu002@ucr.edu",
     year: "2nd",
-    major: "CSBA",
-    pronouns: "she/her",
-    hobbies: "Ending the day with reading",
-  },
-  {
-    image: Aliyah,
-    name: "Aliyah Owens",
-    position: "Marketing Chair",
-    linkedin: "https://www.linkedin.com/in/aliyahaowens/",
-    email: "aowen020@ucr.edu",
-    year: "3rd",
     major: "computer science",
     pronouns: "she/her",
-    hobbies: "Taking nature walks and painting",
   },
   {
     image: Fatima,
     name: "Fatima Bashir",
-    position: "Recruitment Chair",
+    position: "Events Chair",
     linkedin: "https://www.linkedin.com/in/fatima-bashir-6122a0274/",
     email: "fbash006@ucr.edu",
-    year: "3rd",
+    year: "4th",
     major: "computer science",
     pronouns: "she/her",
-    hobbies: "Playing soccer, drawing, and trying new foods",
-  },
-  {
-    /*
-        No infomation 
-    */
-    image: Pamodya,
-    name: "Pamodya Peiris",
-    position: "Graduate Outreach Chair",
-    linkedin: "https://www.linkedin.com/in/pamodyapeiris/",
-    email: "ppeir002@ucr.edu",
-    year: "3rd",
-    major: "computer science",
-    pronouns: "she/her",
-  },
-  {
-    /*
-        No infomation 
-    */
-    image: Elaheh,
-    name: "Elaheh Sadredini",
-    position: "Faculty Advisor",
-    linkedin: "https://www.linkedin.com/in/elaheh-sadredini-phd-823002b2/",
-    email: "elaheh@cs.ucr.edu",
-    // year: "2rd",
-    // major: "data science",
-    pronouns: "she/her",
-    hobbies: "Machine Learning and Data Mining",
   },
   {
     image: Christina,
     name: "Christina Serrato",
-    position: "Marketing Chair",
+    position: "Social Media & Marketing Chair",
     linkedin: "https://www.linkedin.com/in/christina-serrato-87b851261/",
     email: "cserr037@ucr.edu",
-    year: "3rd",
+    year: "4th",
     major: "computer science",
     pronouns: "she/her",
-    hobbies: "Playing the guitar",
+  },
+  {
+    image: Hailey,
+    name: "Hailey Glamore-Scott",
+    position: "Recruitment Chair",
+    linkedin: "https://www.linkedin.com/in/haileyglamorescott/",
+    email: "hglam001@ucr.edu",
+    year: "4th",
+    major: "computer engineering",
+    pronouns: "she/her",
+  },
+  {
+    image: Ramya,
+    name: "Ramya Madugula",
+    position: "Operations Chair",
+    linkedin: "https://www.linkedin.com/in/ramya-madugula-6132051b4/",
+    email: "rmadu002@ucr.edu",
+    year: "3rd",
+    major: "CSBA",
+    pronouns: "she/her",
   },
 ];
 export default Board;

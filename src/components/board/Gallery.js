@@ -24,7 +24,6 @@ const Gallery = () => {
                 year={officer.year}
                 major={officer.major}
                 pronouns={officer.pronouns}
-                hobbies={officer.hobbies}
               />
             </div>
           ))}
