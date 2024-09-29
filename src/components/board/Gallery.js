@@ -21,7 +21,6 @@ const Gallery = () => {
                 position={officer.position}
                 linkedin={officer.linkedin}
                 email={officer.email}
-                year={officer.year}
                 major={officer.major}
                 pronouns={officer.pronouns}
               />

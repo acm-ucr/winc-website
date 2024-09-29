@@ -10,7 +10,6 @@ const Officer = ({
   position,
   linkedin,
   email,
-  year,
   major,
   pronouns,
 }) => {
@@ -35,13 +34,9 @@ const Officer = ({
       </div>
       <div className="text-winc-black font-urbanist">
         <div className="text-2xl md:text-3xl mt-3 font-semibold">{name}</div>
-        <div className="text-xl md:text-2xl">{position}</div>
-        <div className="text-sm md:text-base -space-y-1 mt-1">
-          {year && major && (
-            <div>
-              {year} year · {major}
-            </div>
-          )}
+        <div className="text-xl md:text-2xl font-medium">{position}</div>
+        <div className="text-sm md:text-base -space-y-1 mt-0.5">
+          {major && <div className="mb-0.5">{major}</div>}
           <div>Pronouns: {pronouns}</div>
         </div>
       </div>

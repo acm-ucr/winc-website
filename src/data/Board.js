@@ -14,8 +14,7 @@ const Board = [
     position: "President",
     linkedin: "https://www.linkedin.com/in/padma-bellamkonda/",
     email: "pbell012@ucr.edu",
-    year: "4th",
-    major: "computer science",
+    major: "Computer Science",
     pronouns: "she/her",
   },
   {
@@ -24,8 +23,7 @@ const Board = [
     position: "VP Internal",
     linkedin: "www.linkedin.com/in/kathalinnegonzalez",
     email: "kgonz192@ucr.edu",
-    year: "4th",
-    major: "computer engineering",
+    major: "Computer Engineering",
     pronouns: "she/her",
   },
   {
@@ -34,8 +32,7 @@ const Board = [
     position: "VP External",
     linkedin: "https://www.linkedin.com/in/jaydah-julian-a33298225/",
     email: "jjuli010@ucr.edu",
-    year: "4th",
-    major: "computer science",
+    major: "Computer Science",
     pronouns: "she/her",
   },
   {
@@ -44,8 +41,7 @@ const Board = [
     position: "Secretary",
     linkedin: "https://www.linkedin.com/in/anisha-nawar-44232826b/",
     email: "anawa007@ucr.edu",
-    year: "2nd",
-    major: "computer science",
+    major: "Computer Science",
     pronouns: "she/her",
   },
   {
@@ -54,8 +50,7 @@ const Board = [
     position: "Events Chair",
     linkedin: "https://www.linkedin.com/in/fatima-bashir-6122a0274/",
     email: "fbash006@ucr.edu",
-    year: "4th",
-    major: "computer science",
+    major: "Computer Science",
     pronouns: "she/her",
   },
   {
@@ -64,8 +59,7 @@ const Board = [
     position: "Social Media & Marketing Chair",
     linkedin: "https://www.linkedin.com/in/christina-serrato-87b851261/",
     email: "cserr037@ucr.edu",
-    year: "4th",
-    major: "computer science",
+    major: "Computer Science",
     pronouns: "she/her",
   },
   {
@@ -74,8 +68,7 @@ const Board = [
     position: "Recruitment Chair",
     linkedin: "https://www.linkedin.com/in/haileyglamorescott/",
     email: "hglam001@ucr.edu",
-    year: "4th",
-    major: "computer engineering",
+    major: "Computer Engineering",
     pronouns: "she/her",
   },
   {
@@ -84,7 +77,6 @@ const Board = [
     position: "Operations Chair",
     linkedin: "https://www.linkedin.com/in/ramya-madugula-6132051b4/",
     email: "rmadu002@ucr.edu",
-    year: "3rd",
     major: "CSBA",
     pronouns: "she/her",
   },
