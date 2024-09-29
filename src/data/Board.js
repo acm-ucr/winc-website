@@ -1,11 +1,11 @@
-import Padma from "@/public/assets/board/padma.jpg";
-import Bella from "@/public/assets/board/bella.jpg";
-import Jaydah from "@/public/assets/board/jaydah.jpg";
-import Anisha from "@/public/assets/board/anisha.png";
-import Fatima from "@/public/assets/board/fatima.png";
-import Christina from "@/public/assets/board/christina.png";
-import Hailey from "@/public/assets/board/hailey.png";
-import Ramya from "@/public/assets/board/ramya.png";
+import Padma from "@/public/assets/board/padma.webp";
+import Bella from "@/public/assets/board/bella.webp";
+import Jaydah from "@/public/assets/board/jaydah.webp";
+import Anisha from "@/public/assets/board/anisha.webp";
+import Fatima from "@/public/assets/board/fatima.webp";
+import Christina from "@/public/assets/board/christina.webp";
+import Hailey from "@/public/assets/board/hailey.webp";
+import Ramya from "@/public/assets/board/ramya.webp";
 
 const Board = [
   {

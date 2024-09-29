@@ -48,10 +48,11 @@ const Services = () => {
           topic="MENTORSHIP"
           textColor="text-winc-white"
           description="Learn from your peers about academia, industry, research, internships and much more."
-          media="COMING SOON"
+          media="FORM"
           mediaBG="bg-gray-400"
           mediaText="black"
           backgroundColor="bg-winc-black"
+          mediaLink="https://docs.google.com/forms/d/e/1FAIpQLSdaVtUjzdjO32HPw_OPA9TQ9S1UWej8OKQuMWVsnnqowS1SBw/viewform"
         />
       </div>
     </div>
