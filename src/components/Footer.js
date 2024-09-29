@@ -31,8 +31,7 @@ const Footer = () => {
               <div className="text-base md:text-2xl font-light">Membership</div>
             </Link>
           </div>
-          {/* <div> */}
-          <div className="flex flex-row space-x-2 justify-center items-center text-2xl md:text-4xl col-span-3 md:col-span-1">
+          <div className="flex flex-row space-x-2 justify-center items-center text-2xl md:text-4xl col-span-3 md:col-span-1 ">
             {Socials.map((social, index) => {
               return (
                 <Link
@@ -44,13 +43,13 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   key={index}
+                  className="hover:opacity-80"
                 >
                   {social.image}
                 </Link>
               );
             })}
           </div>
-          {/* </div> */}
         </div>
       </div>
     </div>

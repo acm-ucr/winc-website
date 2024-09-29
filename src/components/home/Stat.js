@@ -1,7 +1,5 @@
-// "use client";
 import React from "react";
 
-// style the component here
 const Stat = ({ icon, stat, type }) => {
   return (
     <div

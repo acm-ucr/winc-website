@@ -1,4 +1,3 @@
-// import Upcoming from "@/components/events/Upcoming";
 import Title from "@/components/Title";
 import CalendarEvents from "@/components/events/CalendarEvents";
 const Events = () => {
@@ -11,7 +10,6 @@ const Events = () => {
         </div>
       </div>
       <CalendarEvents show={false} />
-      {/* <Upcoming /> */}
     </>
   );
 };

@@ -1,12 +1,9 @@
-// "use client";
 import React from "react";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaUserGraduate } from "react-icons/fa";
 
 import Stat from "./Stat";
-
-// style the background rectangle here
 
 const Stats = () => {
   return (
