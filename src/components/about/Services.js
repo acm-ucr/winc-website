@@ -1,9 +1,7 @@
-// "use client";
 import React from "react";
 import { IoPersonSharp } from "react-icons/io5";
 import Title from "../Title";
 import Service from "./Service";
-// style the background rectangle here
 
 const Services = () => {
   return (

@@ -12,9 +12,9 @@ const Gallery = () => {
         </div>
       </div>
       <div className="flex bg-winc-white w-full px-12 py-4 md:py-8 outline outline-8 outline-offset-8 outline-winc-white">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 w-full gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 w-full gap-4 ">
           {Board.map((officer, index) => (
-            <div key={index} className="flex justify-center py-6">
+            <div key={index} className="flex justify-center items-center">
               <Officer
                 image={officer.image}
                 name={officer.name}

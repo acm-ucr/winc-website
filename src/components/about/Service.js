@@ -1,6 +1,4 @@
-// "use client";
 import React from "react";
-// style the component here
 const Service = ({ icon, info, description }) => {
   return (
     <div className="border-4 border-winc-white rounded-3xl w-11/12 p-2 my-2 h-full flex justify-center items-center">

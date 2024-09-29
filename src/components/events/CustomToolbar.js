@@ -18,7 +18,6 @@ const CustomToolbar = (event) => {
     <div className="flex justify-center items-center font-bold text-3xl">
       <FaArrowLeft
         onClick={() => {
-          console.log("hi");
           event.onNavigate("PREV");
         }}
         className="text-winc-pink hover:cursor-pointer "

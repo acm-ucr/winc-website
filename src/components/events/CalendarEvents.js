@@ -33,7 +33,6 @@ const CalendarEvents = ({ limited = false, show }) => {
         });
 
         setEvents(calendarEvents);
-        console.log(events);
       });
   }, [size]);
 

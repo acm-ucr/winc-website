@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "@/components/Title";
 import Image from "next/image";
-import girlBoss from "@/public/assets/home/Empower.svg";
+import girlBoss from "@/public/assets/home/Empower.png";
 
 const Empower = () => {
   return (
