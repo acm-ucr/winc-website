@@ -1,8 +1,8 @@
 #!/bin/sh
 
-cd /home/projects/winc/winc-website
+cd /home/projects/winc/winc-v3-main-branch
 
-# Builds the `dev` branch 
+# Builds the `main` branch 
 res=$(git pull origin main | grep Already)
 
 if [[ ${res} =~ 'Already' ]]
