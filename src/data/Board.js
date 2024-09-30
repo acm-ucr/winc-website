@@ -21,7 +21,7 @@ const Board = [
     image: Bella,
     name: "Kathalinne Bella Gonzalez",
     position: "VP Internal",
-    linkedin: "www.linkedin.com/in/kathalinnegonzalez",
+    linkedin: "https://www.linkedin.com/in/kathalinnegonzalez",
     email: "kgonz192@ucr.edu",
     major: "Computer Engineering",
     pronouns: "she/her",
@@ -77,7 +77,7 @@ const Board = [
     position: "Operations Chair",
     linkedin: "https://www.linkedin.com/in/ramya-madugula-6132051b4/",
     email: "rmadu002@ucr.edu",
-    major: "CSBA",
+    major: "Computer Science",
     pronouns: "she/her",
   },
 ];
