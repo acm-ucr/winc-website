@@ -1,20 +1,3 @@
-@import "tailwindcss";
-
-@theme {
-  --color-winc-red-100: #ffcac0;
-  --color-winc-red-200: #fdbdc1;
-  --color-winc-red-300: #fb959b;
-  --color-winc-red-400: #fb959b;
-  --color-winc-red-500: #af565b;
-  --color-winc-red-600: #7d3e41;
-
-  --color-winc-blue-100: #adbfe6;
-  --color-winc-blue-200: #91a9dd;
-  --color-winc-blue-300: #7694d5;
-  --color-winc-blue-400: #5e76aa;
-  --color-winc-blue-500: #3b4a6b;
-
-  --color-winc-yellow-100: #f6f3e4;
-
-  --color-winc-brown-100: #22010a;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
