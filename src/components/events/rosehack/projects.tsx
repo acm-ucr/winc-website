@@ -1,6 +1,6 @@
 import project1 from "@/public/events/rosehack/project1.webp";
 import project2 from "@/public/events/rosehack/project2.webp";
-import ProjectCard from "./projectC";
+import ProjectCard from "./projectCard";
 
 const Projects = () => {
   return (
