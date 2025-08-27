@@ -1,11 +1,11 @@
 "use client";
 import Card from "@/components/events/upcomingevents/card";
 import { motion } from "motion/react";
-import { DayPicker } from "react-day-picker";
-import { TypedGoogleEventProps } from "../calendarcall";
+import type { DayPicker } from "react-day-picker";
+import { GoogleEventProps } from "./upcomingevents";
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker> & {
-  events: TypedGoogleEventProps[];
+  events: GoogleEventProps[];
 };
 
 type EventProps = CalendarProps & {

@@ -1,5 +1,4 @@
 "use client";
-import Image, { StaticImageData } from "next/image";
 
 interface CardProps {
   title: string;

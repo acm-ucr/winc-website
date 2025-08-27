@@ -17,22 +17,17 @@ export type GoogleEventProps = {
   summary: string;
 };
 
-export type TypedGoogleEventProps = GoogleEventProps & {
-  eventType: string;
-};
-
 export interface EventCardProps {
   date: string;
   month: string;
   title: string;
   description: string;
-  eventType: string;
 }
 
 const UpcomingEvents = () => {
   const { data, isLoading, isError } = useQuery<{
-    allEvents: TypedGoogleEventProps[];
-    futureEvents: TypedGoogleEventProps[];
+    allEvents: GoogleEventProps[];
+    futureEvents: GoogleEventProps[];
   }>({
     queryKey: ["googleCalendarEvents"],
     queryFn: async () => {
@@ -50,7 +45,7 @@ const UpcomingEvents = () => {
         }/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}&singleEvents=true&orderBy=startTime&timeMin=${tenWeeksAgo}&timeMax=${tenWeeksAhead}`,
       ).then((res) => res.json());
 
-      const allEvents: TypedGoogleEventProps[] = response.items || [];
+      const allEvents: GoogleEventProps[] = response.items || [];
 
       const futureEvents = allEvents
         .filter((item) => {

@@ -81,22 +81,17 @@ const CalendarDay = ({ date, events }: DayProps) => {
 
       {filteredEvents
         .slice(0, displayEventCount)
-        .map(
-          (
-            { start, summary, end, description, location, eventType },
-            index,
-          ) => (
-            <CalendarEventPopover
-              key={index}
-              startDate={start}
-              endDate={end}
-              title={summary}
-              description={description}
-              date={date}
-              location={location || "TBD"}
-            />
-          ),
-        )}
+        .map(({ start, summary, end, description, location }, index) => (
+          <CalendarEventPopover
+            key={index}
+            startDate={start}
+            endDate={end}
+            title={summary}
+            description={description}
+            date={date}
+            location={location || "TBD"}
+          />
+        ))}
 
       {filteredEvents.length > visibleEventCount && (
         <Popover>

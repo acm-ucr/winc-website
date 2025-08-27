@@ -32,24 +32,20 @@ export type GoogleEventProps = {
   summary: string;
 };
 
-export type TypedGoogleEventProps = GoogleEventProps & {
-  eventType: string;
-};
-
 export type CalendarEvent = {
   title: string;
   start: Date;
   end: Date;
   allDay: boolean;
-  resource: TypedGoogleEventProps;
+  resource: GoogleEventProps;
 };
 
 const CalendarCall = () => {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
 
-  const { data, isLoading } = useQuery<{
-    allEvents: TypedGoogleEventProps[];
-    futureEvents: TypedGoogleEventProps[];
+  const { data } = useQuery<{
+    allEvents: GoogleEventProps[];
+    futureEvents: GoogleEventProps[];
   }>({
     queryKey: ["googleCalendarEvents"],
     queryFn: async () => {
@@ -67,7 +63,7 @@ const CalendarCall = () => {
         }/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}&singleEvents=true&orderBy=startTime&timeMin=${tenWeeksAgo}&timeMax=${tenWeeksAhead}`,
       ).then((res) => res.json());
 
-      const allEvents: TypedGoogleEventProps[] = response.items || [];
+      const allEvents: GoogleEventProps[] = response.items || [];
 
       const futureEvents = allEvents
         .filter((item) => {
