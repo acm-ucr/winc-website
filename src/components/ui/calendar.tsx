@@ -4,13 +4,13 @@ import * as React from "react";
 import { RiArrowLeftFill, RiArrowRightFill } from "react-icons/ri";
 import { DayPicker } from "react-day-picker";
 import { useState } from "react";
-import { TypedGoogleEventProps } from "@/components/events/calendarcall";
+import { GoogleEventProps } from "../events/calendarcall";
 import CalendarDay from "@/components/events/month/calendarday";
 import CalendarTop from "@/components/events/month/calendartop";
 import UpcomingEvents from "../events/upcomingevents/upcomingevents";
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker> & {
-  events: TypedGoogleEventProps[];
+  events: GoogleEventProps[];
 };
 
 function Calendar({

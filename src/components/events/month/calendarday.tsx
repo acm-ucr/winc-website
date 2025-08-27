@@ -1,4 +1,4 @@
-import { TypedGoogleEventProps } from "@/components/events/calendarcall";
+import { GoogleEventProps } from "@/components/events/calendarcall";
 import { useState, useEffect } from "react";
 import CalendarEventPopover from "./calendareventpopover";
 import {
@@ -10,7 +10,7 @@ import {
 interface DayProps {
   date: Date;
   displayMonth: Date;
-  events: TypedGoogleEventProps[];
+  events: GoogleEventProps[];
 }
 
 const CalendarDay = ({ date, events }: DayProps) => {
