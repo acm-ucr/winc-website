@@ -4,13 +4,13 @@ import { User, Mic, CodeXml } from "lucide-react";
 const GrowAndThrive = () => {
   return (
     <div className="my-10 flex w-full flex-col items-center overflow-hidden">
-      <div className="w-11/12 border-4 border-winc-yellow-200 bg-white md:w-1/3">
+      <div className="w-10/12 border-4 border-winc-yellow-200 bg-white md:w-1/3">
         <div className="m-2 bg-winc-yellow-200 py-2 text-center text-4xl font-bold text-winc-red-400">
           Grow and thrive
         </div>
       </div>
 
-      <p className="my-8 text-center text-2xl font-bold text-winc-blue-500">
+      <p className="mx-2 my-8 text-center text-2xl font-bold text-winc-blue-500">
         We offer all the opportunities and resources necessary for success
       </p>
       <div className="flex w-2/3 flex-col justify-center space-y-8 md:flex-row md:space-x-8 md:space-y-0">
