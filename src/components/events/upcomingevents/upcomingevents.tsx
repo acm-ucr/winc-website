@@ -1,22 +1,7 @@
 "use client";
 import React from "react";
-import { useState, useEffect } from "react";
-import { Calendar as UICalendar } from "@/components/ui/calendar";
 import { useQuery } from "@tanstack/react-query";
-
-export function useWindowWidth() {
-  const [width, setWidth] = useState(
-    typeof window !== "undefined" ? window.innerWidth : 1024,
-  );
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  return width;
-}
+import Cards from "./cards";
 
 export type GoogleEventProps = {
   start: {
@@ -32,18 +17,15 @@ export type GoogleEventProps = {
   summary: string;
 };
 
-export type CalendarEvent = {
+export interface EventCardProps {
+  date: string;
+  month: string;
   title: string;
-  start: Date;
-  end: Date;
-  allDay: boolean;
-  resource: GoogleEventProps;
-};
+  description: string;
+}
 
-const CalendarCall = () => {
-  const [date, setDate] = React.useState<Date | undefined>(new Date());
-
-  const { data } = useQuery<{
+const UpcomingEvents = () => {
+  const { data, isLoading, isError } = useQuery<{
     allEvents: GoogleEventProps[];
     futureEvents: GoogleEventProps[];
   }>({
@@ -75,23 +57,29 @@ const CalendarCall = () => {
       return { allEvents, futureEvents };
     },
   });
-
   return (
     <div>
-      <div className="mb-2 w-full border-4 border-winc-red-400" />
-      <p className="bg-winc-red-400 py-4 text-center text-4xl font-bold text-white">
-        Programs & Events
-      </p>
-      <div className="mb-16 mt-2 w-full border-4 border-winc-red-400" />
-      <UICalendar
-        mode="single"
-        selected={date}
-        onSelect={setDate}
-        className="mx-auto w-11/12 md:w-10/12"
-        events={data?.allEvents ?? []}
-      />
+      <div className="flex flex-col items-center pb-8">
+        <p className="mb-4 mt-4 text-center text-4xl font-extrabold leading-none text-winc-blue-500">
+          Upcoming Events
+        </p>
+        <div className="w-16 border-2 border-winc-red-400" />
+      </div>
+
+      {!isLoading && data && data.futureEvents.length === 0 && (
+        <p className="mt-6 pb-8 text-center text-2xl text-black">
+          No upcoming events.
+        </p>
+      )}
+      {!isLoading && data && data.futureEvents.length > 0 && (
+        <Cards
+          events={data.futureEvents}
+          isLoading={isLoading}
+          isError={isError}
+        />
+      )}
     </div>
   );
 };
 
-export default CalendarCall;
+export default UpcomingEvents;
