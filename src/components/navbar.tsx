@@ -42,7 +42,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="fixed top-0 z-10 flex w-full flex-row items-center justify-between bg-winc-yellow-100 p-4 lg:p-2">
+    <div className="sticky top-0 z-10 flex w-full bg-white flex-row items-center justify-between p-4 lg:p-2">
       <motion.div
         className="abolute z-30 pl-0 duration-100 md:p-2"
         whileHover={{ scale: 1.1 }}
@@ -65,7 +65,7 @@ const Navbar = () => {
                 pathName === link ? "font-normal" : "border-b-transparent"
               } flex flex-col items-center gap-1`}
             >
-              <div className={`p-2 ${className}`}>{name}</div>
+              <div className={className}>{name}</div>
               {pathName === link && (
                 <span className="inline-block h-3 w-3 rounded-full bg-winc-red-400"></span>
               )}
@@ -104,7 +104,7 @@ const Navbar = () => {
         animate={isOpen ? "open" : "closed"}
         exit="closed"
         ref={containerRef}
-        className="absolute left-0 top-0 flex h-[40vh] w-full flex-col items-center justify-center bg-winc-yellow-100 shadow-lg md:hidden"
+        className="absolute left-0 top-0 flex h-[40vh] w-full flex-col items-center justify-center shadow-lg md:hidden bg-white"
         variants={sidebarVariants}
       >
         <motion.ul className="list-none space-y-6 pt-4 text-2xl sm:pt-0">

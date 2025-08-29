@@ -23,7 +23,7 @@ const navigation: nav[] = [
   {
     name: "join now",
     link: "/",
-    className: "bg-winc-beige-100 text-winc-red-400 rounded-full",
+    className: "bg-winc-yellow-200 text-winc-red-400 rounded-full px-4",
   },
 ];
 
