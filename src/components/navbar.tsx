@@ -119,12 +119,12 @@ const Navbar = () => {
             >
               <Link
                 href={link}
-                className={`duration-1 rounded-lg text-lg font-bold hover:font-normal hover:text-winc-red-400 ${className ?? ""} ${
+                className={`duration-1 rounded-lg text-lg font-bold hover:font-normal hover:text-winc-red-400 ${
                   pathName === link ? "font-normal" : "border-b-transparent"
                 } flex flex-col items-center gap-1`}
                 onClick={closeMenu}
               >
-                <span>{name}</span>
+                <div className={className}>{name}</div>
                 {pathName === link && (
                   <span className="inline-block h-2 w-2 rounded-full bg-winc-red-400"></span>
                 )}
