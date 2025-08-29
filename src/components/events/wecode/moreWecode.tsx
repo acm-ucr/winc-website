@@ -19,12 +19,14 @@ const EventSection = ({
 }) => {
   const textContent = (
     <div className="flex flex-1 flex-col justify-center p-8 text-center md:text-right">
-      <p className="text-3xl font-bold text-gray-800">{title}</p>
+      <p className="text-3xl font-bold text-winc-black-100">{title}</p>
       <div className="mb-2 flex items-center justify-center gap-2 md:justify-end">
         <p className="text-sm text-winc-gray-100">'24-25</p>
         <div className="h-1 w-8 bg-winc-red-600"></div>
       </div>
-      <p className="text-xl leading-relaxed text-gray-600">{description}</p>
+      <p className="text-xl leading-relaxed text-winc-black-100">
+        {description}
+      </p>
     </div>
   );
 
