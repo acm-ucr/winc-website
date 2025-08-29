@@ -1,6 +1,6 @@
-import NewPeople from "@/public/events/wecode/NewPeople.jpg";
-import GuestSpeaker from "@/public/events/wecode/GuestSpeaker.jpg";
-import SoManyFirsts from "@/public/events/wecode/SoManyFirsts.jpg";
+import NewPeople from "@/public/events/wecode/NewPeople.webp";
+import GuestSpeaker from "@/public/events/wecode/GuestSpeaker.webp";
+import SoManyFirsts from "@/public/events/wecode/SoManyFirsts.webp";
 import Image from "next/image";
 import { type StaticImageData } from "next/image";
 
