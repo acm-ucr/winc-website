@@ -42,7 +42,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="sticky top-0 z-10 flex w-full bg-white flex-row items-center justify-between p-4 lg:p-2">
+    <div className="sticky top-0 z-10 flex w-full flex-row items-center justify-between bg-white p-4 lg:p-2">
       <motion.div
         className="abolute z-30 pl-0 duration-100 md:p-2"
         whileHover={{ scale: 1.1 }}
@@ -104,7 +104,7 @@ const Navbar = () => {
         animate={isOpen ? "open" : "closed"}
         exit="closed"
         ref={containerRef}
-        className="absolute left-0 top-0 flex h-[40vh] w-full flex-col items-center justify-center shadow-lg md:hidden bg-white"
+        className="absolute left-0 top-0 flex h-[40vh] w-full flex-col items-center justify-center bg-white shadow-lg md:hidden"
         variants={sidebarVariants}
       >
         <motion.ul className="list-none space-y-6 pt-4 text-2xl sm:pt-0">
