@@ -2,6 +2,7 @@ import NewPeople from "@/public/events/wecode/NewPeople.jpg";
 import GuestSpeaker from "@/public/events/wecode/GuestSpeaker.jpg";
 import SoManyFirsts from "@/public/events/wecode/SoManyFirsts.jpg";
 import Image from "next/image";
+import { type StaticImageData } from "next/image";
 
 const EventSection = ({
   title,
@@ -12,9 +13,9 @@ const EventSection = ({
 }: {
   title: string;
   description: string;
-  image: any;
+  image: StaticImageData;
   imageAlt: string;
-  reverseLayout?: boolean;
+  reverseLayout: boolean;
 }) => {
   const textContent = (
     <div className="flex flex-1 flex-col justify-center p-8 text-center md:text-right">
