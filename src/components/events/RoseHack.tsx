@@ -6,11 +6,11 @@ import hearts from "@/public/events/hearts.webp";
 const RoseHack = () => {
   return (
     <div className="mx-auto flex w-2/3 flex-col justify-center gap-8 md:flex-row">
-      <div className="mx-auto flex flex-col gap-8 text-center md:text-left">
-        <div className="mx-auto md:ml-auto md:mr-0">
-          <EventTitle text={"What is Rose Hack?"} />
-        </div>
-        <p>
+      <div className="flex flex-col gap-8">
+        {/* <div className="mx-auto"> */}
+        <EventTitle text={"What is Rose Hack?"} />
+        {/* </div> */}
+        <p className="text-center md:text-left">
           Rose Hack is a hackathon dedicated to uplifting underrepesented
           communities in the engineering field. The hackathon encourages
           participants to create projects, attend workshops, enjoy games, and
