@@ -14,7 +14,7 @@ const Stats = () => {
         />
         <StatCard icon={<FaUser />} stat="500+" text="Members" />
         <StatCard
-          icon={<FaUserGraduate className="md:ml-2" />}
+          icon={<FaUserGraduate className="-ml-1 md:ml-2" />}
           stat="1000+"
           text="Alumni"
         />
