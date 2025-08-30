@@ -34,6 +34,9 @@ module.exports = {
           beige: {
             100: "#F7EEE3",
           },
+          black: {
+            100: "#203E4E",
+          },
         },
       },
     },

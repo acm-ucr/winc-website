@@ -1,5 +1,5 @@
 "use client";
-import Card from "@/components/events/upcomingevents/card";
+import Card from "@/components/calendar/upcomingevents/card";
 import { motion } from "motion/react";
 import type { DayPicker } from "react-day-picker";
 import { GoogleEventProps } from "./upcomingevents";
