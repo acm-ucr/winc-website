@@ -4,22 +4,23 @@ interface nav {
   className?: string;
 }
 
-const navigation: nav[] = [
+const Navigations: nav[] = [
   {
     name: "about",
     link: "/about",
   },
-
   {
     name: "board",
     link: "/board",
   },
-
+  {
+    name: "calendar",
+    link: "/calendar",
+  },
   {
     name: "events",
     link: "/events",
   },
-
   {
     name: "join now",
     link: "/",
@@ -27,4 +28,4 @@ const navigation: nav[] = [
   },
 ];
 
-export default navigation;
+export default Navigations;

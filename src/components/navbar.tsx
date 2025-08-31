@@ -1,6 +1,6 @@
 "use client";
 import wincLogo from "@/public/logo.webp";
-import navigation from "@/data/NavbarLinks";
+import navigations from "@/data/navigations";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
@@ -42,7 +42,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="sticky top-0 z-10 flex w-full flex-row items-center justify-between bg-white p-4 lg:p-2">
+    <div className="sticky top-0 flex flex-row items-center justify-between bg-white p-4 shadow-xl lg:p-2">
       <motion.div
         className="abolute z-30 pl-0 duration-100 md:p-2"
         whileHover={{ scale: 1.1 }}
@@ -57,7 +57,7 @@ const Navbar = () => {
       </motion.div>
 
       <div className="my-2 hidden flex-row gap-20 pr-12 md:flex">
-        {navigation.map(({ link, name, className }, index) => (
+        {navigations.map(({ link, name, className }, index) => (
           <motion.div key={index}>
             <Link
               href={link}
@@ -108,7 +108,7 @@ const Navbar = () => {
         variants={sidebarVariants}
       >
         <motion.ul className="list-none space-y-6 pt-4 text-2xl sm:pt-0">
-          {navigation.map(({ link, name, className }, index) => (
+          {navigations.map(({ link, name, className }, index) => (
             <motion.li
               key={index}
               variants={itemVariants}
