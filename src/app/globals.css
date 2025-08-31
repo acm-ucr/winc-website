@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.border-tr-bl {
+  background:
+    linear-gradient(to left, theme("colors.winc.red.400") 8px, transparent 8px)
+      100% 0 / 60px 60px no-repeat,
+    linear-gradient(
+        to bottom,
+        theme("colors.winc.red.400") 8px,
+        transparent 8px
+      )
+      100% 0 / 60px 60px no-repeat,
+    linear-gradient(to right, theme("colors.winc.red.400") 8px, transparent 8px)
+      0 100% / 60px 60px no-repeat,
+    linear-gradient(to top, theme("colors.winc.red.400") 8px, transparent 8px) 0
+      100% / 60px 60px no-repeat;
+}
