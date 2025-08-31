@@ -4,9 +4,9 @@ interface eventTitleProps {
 
 const EventTitle = ({ text }: eventTitleProps) => {
   return (
-    <div className="w-fit text-right text-4xl text-winc-black-100">
+    <div className="w-fit text-center text-4xl text-winc-black-100 md:text-right">
       {text}
-      <div className="mr-8 mt-2 w-1/5 justify-self-end border-4 border-winc-red-600" />
+      <div className="mt-2 w-1/5 justify-self-center border-2 border-winc-red-600 md:mr-8 md:justify-self-end" />
     </div>
   );
 };
