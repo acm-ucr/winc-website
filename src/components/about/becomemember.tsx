@@ -6,7 +6,7 @@ const BecomeMember = () => {
   return (
     <>
       <div className="mb-3 h-2 w-full bg-winc-red-400" />
-      <div className="w-full bg-winc-red-400 p-3 px-8 lg:px-16">
+      <div className="w-full bg-winc-red-400 p-3 px-8 pb-12 lg:px-16">
         <p className="p-3 pb-8 text-center text-4xl font-bold text-white">
           Become A Member
         </p>
