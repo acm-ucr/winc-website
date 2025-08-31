@@ -42,7 +42,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="sticky top-0 flex flex-row items-center justify-between bg-white p-4 shadow-xl lg:p-2">
+    <div className="sticky top-0 z-50 flex flex-row items-center justify-between bg-white p-4 shadow-xl lg:p-2">
       <motion.div
         className="abolute z-30 pl-0 duration-100 md:p-2"
         whileHover={{ scale: 1.1 }}

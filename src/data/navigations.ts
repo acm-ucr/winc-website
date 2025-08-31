@@ -19,11 +19,11 @@ const Navigations: nav[] = [
   },
   {
     name: "events",
-    link: "/events",
+    link: "/events/overview",
   },
   {
     name: "join now",
-    link: "/",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSe5M-kEntAmPHnHNcerN6F8G5eevJs6zQJgEt3X3hcj_eNV3w/viewform",
     className: "bg-winc-yellow-200 text-winc-red-400 rounded-full px-4",
   },
 ];
