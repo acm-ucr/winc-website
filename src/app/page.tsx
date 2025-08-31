@@ -1,5 +1,11 @@
+import GrowAndThrive from "@/components/home/growandthrive";
+
 const Home = () => {
-  return <div className="flex items-center justify-center">Hello World</div>;
+  return (
+    <>
+      <GrowAndThrive />
+    </>
+  );
 };
 
 export default Home;
