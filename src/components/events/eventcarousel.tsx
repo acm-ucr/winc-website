@@ -37,9 +37,9 @@ export function EventCarousel() {
       <div>
         <p className="mb-5 flex justify-center text-xl font-bold md:mb-10 md:text-3xl lg:text-5xl">
           Event
-          <p className="border-b-4 border-winc-red-400 text-xl md:pb-2 md:text-3xl lg:text-5xl">
+          <span className="border-b-4 border-winc-red-400 text-xl md:pb-2 md:text-3xl lg:text-5xl">
             s
-          </p>
+          </span>
         </p>
       </div>
 

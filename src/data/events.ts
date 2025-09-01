@@ -21,7 +21,7 @@ export const events: Event[] = [
   {
     id: 3,
     title: "WECode",
-    gradient: "from-winc-red-400 to-winc-red-700",
+    gradient: "from-winc-red-400 to-winc-red-750",
     direction: "to-r",
   },
 ];
