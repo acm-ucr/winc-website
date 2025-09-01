@@ -15,14 +15,14 @@ interface Social {
 
 const Socials: Social[] = [
   {
-    path: "wincucr@gmail.com",
-    title: "Mail",
-    icon: FaEnvelope,
-  },
-  {
     path: "https://www.instagram.com/wincucr/",
     title: "Instagram",
     icon: FaInstagram,
+  },
+  {
+    path: "wincucr@gmail.com",
+    title: "Mail",
+    icon: FaEnvelope,
   },
   {
     path: "https://github.com/winc-ucr",
