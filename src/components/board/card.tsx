@@ -12,7 +12,7 @@ interface BoardProps {
   year: string;
   major: string;
   pronouns: string;
-  starsign: string;
+  starsign?: string;
 }
 
 const Card = ({
