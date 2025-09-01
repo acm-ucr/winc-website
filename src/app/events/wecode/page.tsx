@@ -9,8 +9,8 @@ const Page = () => {
     <div>
       <LookDown
         titleText="What is WECode?"
-        sideImage={weCode}
-        sideImage2={redBackground}
+        sideImage={redBackground}
+        sideImage2={weCode}
         content="WECode is a Harvard based conference run by students. It is a space that highlights underrepresented communities. It is THE largest student run Women in Computer Science run conference in the US."
         content2="WINC came up with the funding to send a few members there to enjoy the experience first hand."
       />
