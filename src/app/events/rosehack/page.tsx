@@ -1,7 +1,6 @@
 import BoardPictureCard from "@/components/events/rosehack/BoardPictureCard";
 
-const Page = () => {
+const rosehack = () => {
   return <BoardPictureCard />;
 };
-
-export default Page;
+export default rosehack;
