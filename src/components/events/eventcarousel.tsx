@@ -60,7 +60,11 @@ export function EventCarousel() {
               className="h-full w-80 flex-shrink-0 md:w-96"
             >
               <div
-                className={`flex h-full w-full items-start justify-start rounded-lg bg-gradient-${event.direction} ${event.gradient} p-4 shadow-lg transition-all md:p-6`}
+                className={`flex h-full w-full items-start justify-start rounded-lg ${
+                  event.direction === "to-r"
+                    ? "bg-gradient-to-r"
+                    : "bg-gradient-to-b"
+                } ${event.gradient} p-4 shadow-lg transition-all md:p-6`}
               >
                 <p className="text-2xl md:text-4xl">{event.title}</p>
               </div>
