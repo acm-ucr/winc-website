@@ -2,8 +2,6 @@ import Image from "next/image";
 import leftHeart from "@/public/events/picture/leftHeart.webp";
 import rightHeart from "@/public/events/picture/rightHeart.webp";
 import boardGroup from "@/public/events/picture/boardGroup.webp";
-import gameSocial from "@/public/events/picture/GameSocial.webp";
-import selfie from "@/public/events/picture/Selfie.webp";
 
 const BoardPictureCard = () => {
   return (
