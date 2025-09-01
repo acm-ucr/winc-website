@@ -19,13 +19,13 @@ const LookDown = ({
   content2,
 }: lookDownProps) => {
   return (
-    <div className="mx-auto flex w-2/3 flex-col justify-center gap-8 md:flex-row">
-      <div className="flex flex-col gap-8">
+    <div className="mx-auto my-6 flex w-2/3 flex-col place-items-center justify-center gap-8 md:flex-row">
+      <div className="flex-2 flex w-full flex-col gap-8 text-center text-lg md:w-3/4 md:text-left md:text-xl">
         <EventTitle text={titleText} />
-        <p className="text-center md:text-left">{content}</p>
-        {content2 && <p className="text-center md:text-left">{content2}</p>}
+        <p>{content}</p>
+        {content2 && <p>{content2}</p>}
       </div>
-      <div className="relative w-full md:w-1/2">
+      <div className="relative w-full md:ml-8 md:w-1/4">
         {sideImage2 && (
           <Image
             src={sideImage2}
@@ -36,7 +36,7 @@ const LookDown = ({
         <Image
           src={sideImage}
           alt="Hearts Icon"
-          className="absolute -left-4 top-6 w-full md:w-3/4"
+          className="absolute -left-1 top-3 w-full md:-left-4 md:top-6 md:w-3/4"
         />
       </div>
     </div>
