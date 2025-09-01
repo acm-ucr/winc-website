@@ -1,6 +1,5 @@
 import MoreWecode from "@/components/events/wecode/moreWecode";
-import LookDown from "@/components/events/LookDown";
-
+import LookDown from "@/components/events/lookdown";
 import weCode from "@/public/events/weCode.webp";
 import redBackground from "@/public/events/redBackground.svg";
 

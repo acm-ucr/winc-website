@@ -17,7 +17,7 @@ const Footer = () => {
                 key={index}
                 className="flex flex-col items-center justify-center gap-6"
               >
-                <p className="text-4xl font-bold">{title}</p>
+                <p className="text-3xl font-bold">{title}</p>
                 {links.map(({ name, link }, subIndex) =>
                   name === "wincucr@gmail.com" ? (
                     <Link

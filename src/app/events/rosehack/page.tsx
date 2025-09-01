@@ -1,4 +1,4 @@
-import LookDown from "@/components/events/LookDown";
+import LookDown from "@/components/events/lookdown";
 import hearts from "@/public/events/hearts.webp";
 
 const Page = () => {
