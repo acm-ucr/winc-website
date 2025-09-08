@@ -1,7 +1,7 @@
 import LookDown from "@/components/events/lookdown";
 import hearts from "@/public/events/hearts.webp";
 import BoardPictureCard from "@/components/events/EventPictureCard";
-import GameSocial from "@/public/events/picture/GameSocial.webp"
+import GameSocial from "@/public/events/picture/GameSocial.webp";
 
 const Page = () => {
   return (
@@ -12,9 +12,7 @@ const Page = () => {
         content="We host all kinds of socials! We host game days, workshops, general meetings, etc. We aim to make everyone feel included through these events."
         content2="WINC is a community! In order to strengthen our community we host events that help students bond with each other. All are welcome!"
       />
-      <BoardPictureCard 
-      title="Game Social"
-      image = {GameSocial}/>
+      <BoardPictureCard title="Game Social" image={GameSocial} />
     </>
   );
 };
