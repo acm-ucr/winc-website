@@ -1,4 +1,4 @@
-import { GoogleEventProps } from "@/components/events/calendarcall";
+import { GoogleEventProps } from "@/components/calendar/calendarcall";
 import { useState, useEffect } from "react";
 import CalendarEventPopover from "./calendareventpopover";
 import {
