@@ -1,11 +1,11 @@
-import Padma from "@/public/assets/Board_Photos/padma.webp";
-import Bella from "@/public/assets/Board_Photos/bella.webp";
-import Jaydah from "@/public/assets/Board_Photos/jaydah.webp";
-import Anisha from "@/public/assets/Board_Photos/anisha.webp";
-import Fatima from "@/public/assets/Board_Photos/fatima.webp";
-import Christina from "@/public/assets/Board_Photos/christina.webp";
-import Hailey from "@/public/assets/Board_Photos/hailey.webp";
-import Ramya from "@/public/assets/Board_Photos/ramya.webp";
+import Padma from "@/public/boardpage/padma.webp";
+import Bella from "@/public/boardpage/bella.webp";
+import Jaydah from "@/public/boardpage/jaydah.webp";
+import Anisha from "@/public/boardpage/anisha.webp";
+import Fatima from "@/public/boardpage/fatima.webp";
+import Christina from "@/public/boardpage/christina.webp";
+import Hailey from "@/public/boardpage/hailey.webp";
+import Ramya from "@/public/boardpage/ramya.webp";
 
 const Board = [
   {
@@ -16,6 +16,8 @@ const Board = [
     email: "pbell012@ucr.edu",
     major: "Computer Science",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
   {
     image: Bella,
@@ -25,6 +27,8 @@ const Board = [
     email: "kgonz192@ucr.edu",
     major: "Computer Engineering",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
   {
     image: Jaydah,
@@ -34,6 +38,8 @@ const Board = [
     email: "jjuli010@ucr.edu",
     major: "Computer Science",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
   {
     image: Anisha,
@@ -43,6 +49,8 @@ const Board = [
     email: "anawa007@ucr.edu",
     major: "Computer Science",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
   {
     image: Fatima,
@@ -52,6 +60,8 @@ const Board = [
     email: "fbash006@ucr.edu",
     major: "Computer Science",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
   {
     image: Christina,
@@ -61,6 +71,8 @@ const Board = [
     email: "cserr037@ucr.edu",
     major: "Computer Science",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
   {
     image: Hailey,
@@ -70,6 +82,8 @@ const Board = [
     email: "hglam001@ucr.edu",
     major: "Computer Engineering",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
   {
     image: Ramya,
@@ -79,6 +93,8 @@ const Board = [
     email: "rmadu002@ucr.edu",
     major: "Computer Science",
     pronouns: "she/her",
+    year: "3rd",
+    starsign: "Taurus",
   },
 ];
 export default Board;
