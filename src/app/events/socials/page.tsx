@@ -1,7 +1,7 @@
 import LookDown from "@/components/events/lookdown";
-import hearts from "@/public/events/hearts.webp";
 import BoardPictureCard from "@/components/events/EventPictureCard";
 import GameSocial from "@/public/events/picture/GameSocial.webp";
+import hearts from "@/public/eventspage/hearts.webp";
 
 const Page = () => {
   return (

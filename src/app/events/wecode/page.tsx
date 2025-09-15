@@ -1,9 +1,9 @@
 import MoreWecode from "@/components/events/wecode/moreWecode";
 import LookDown from "@/components/events/lookdown";
-import weCode from "@/public/events/weCode.webp";
-import redBackground from "@/public/events/redBackground.svg";
 import BoardPictureCard from "@/components/events/EventPictureCard";
 import Selfie from "@/public/events/picture/Selfie.webp";
+import weCode from "@/public/eventspage/weCode.webp";
+import redBackground from "@/public/eventspage/redBackground.svg";
 
 const Page = () => {
   return (

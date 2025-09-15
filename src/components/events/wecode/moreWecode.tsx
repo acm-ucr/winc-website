@@ -1,6 +1,6 @@
-import NewPeople from "@/public/events/wecode/NewPeople.webp";
-import GuestSpeaker from "@/public/events/wecode/GuestSpeaker.webp";
-import SoManyFirsts from "@/public/events/wecode/SoManyFirsts.webp";
+import NewPeople from "@/public/eventspage/wecode/NewPeople.webp";
+import GuestSpeaker from "@/public/eventspage/wecode/GuestSpeaker.webp";
+import SoManyFirsts from "@/public/eventspage/wecode/SoManyFirsts.webp";
 import EventSection from "@/components/events/eventsection";
 
 const MoreWecode = () => {

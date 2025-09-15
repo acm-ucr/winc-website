@@ -1,7 +1,8 @@
 import BoardPictureCard from "@/components/events/EventPictureCard";
 import LookDown from "@/components/events/lookdown";
-import hearts from "@/public/events/hearts.webp";
 import boardGroup from "@/public/events/picture/boardGroup.webp";
+import hearts from "@/public/eventspage/hearts.webp";
+
 
 const Page = () => {
   return (

@@ -1,5 +1,5 @@
 import { memberCards } from "@/data/membercards";
-import memberavatar from "@/public/about/memberavatar.webp";
+import memberavatar from "@/public/aboutpage/memberavatar.webp";
 import Image from "next/image";
 
 const BecomeMember = () => {
