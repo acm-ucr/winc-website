@@ -1,7 +1,7 @@
 "use client";
-
 import { useEffect, useRef, useState } from "react";
 import { events } from "@/data/events";
+import Link from "next/link";
 
 export function EventCarousel() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -51,7 +51,6 @@ export function EventCarousel() {
             scrollbarWidth: "none",
             msOverflowStyle: "none",
             userSelect: "none",
-            pointerEvents: "none",
           }}
         >
           {[...events, ...events].map((event, index) => (
@@ -59,7 +58,8 @@ export function EventCarousel() {
               key={`${event.id}-${index}`}
               className="h-full w-80 flex-shrink-0 md:w-96"
             >
-              <div
+              <Link
+                href={event.link}
                 className={`flex h-full w-full items-start justify-start rounded-lg ${
                   event.direction === "to-r"
                     ? "bg-gradient-to-r"
@@ -67,7 +67,7 @@ export function EventCarousel() {
                 } ${event.gradient} p-4 shadow-lg transition-all md:p-6`}
               >
                 <p className="text-2xl md:text-4xl">{event.title}</p>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
