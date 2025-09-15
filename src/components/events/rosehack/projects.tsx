@@ -1,5 +1,5 @@
-import project1 from "@/public/events/rosehack/project1.webp";
-import project2 from "@/public/events/rosehack/project2.webp";
+import project1 from "@/public/eventspage/rosehack/project1.webp";
+import project2 from "@/public/eventspage/rosehack/project2.webp";
 import ProjectCard from "./projectCard";
 
 const Projects = () => {

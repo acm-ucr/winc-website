@@ -1,6 +1,6 @@
 import Image from "next/image";
-import aboutImage from "@/public/about/about1.webp";
-import groupImage from "@/public/about/wincgroupphoto.webp";
+import aboutImage from "@/public/aboutpage/about1.webp";
+import groupImage from "@/public/aboutpage/wincgroupphoto.webp";
 
 const WhatIs = () => {
   return (

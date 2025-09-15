@@ -1,7 +1,6 @@
 import { StaticImageData } from "next/image";
 import Image from "next/image";
-
-import EventTitle from "./EventTitle";
+import EventTitle from "./eventtitle";
 
 interface lookDownProps {
   titleText: string;

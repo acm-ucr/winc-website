@@ -1,7 +1,7 @@
 import EventSection from "@/components/events/eventsection";
-import IamRemarkable from "@/public/events/moresocials/IAmRemarkable.webp";
-import StudySession from "@/public/events/moresocials/StudySession.webp";
-import Tennis from "@/public/events/moresocials/Tennis.webp";
+import IamRemarkable from "@/public/eventspage/moresocials/IAmRemarkable.webp";
+import StudySession from "@/public/eventspage/moresocials/StudySession.webp";
+import Tennis from "@/public/eventspage/moresocials/Tennis.webp";
 
 const MoreSocials = () => {
   return (
