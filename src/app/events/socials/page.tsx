@@ -1,6 +1,6 @@
 import LookDown from "@/components/events/lookdown";
-import BoardPictureCard from "@/components/events/EventPictureCard";
-import GameSocial from "@/public/events/picture/GameSocial.webp";
+import BoardPictureCard from "@/components/events/picturecard";
+import GameSocial from "@/public/eventspage/moresocials/gamesocial.webp";
 import hearts from "@/public/eventspage/hearts.webp";
 
 const Page = () => {

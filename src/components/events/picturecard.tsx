@@ -1,13 +1,13 @@
 import Image, { StaticImageData } from "next/image";
-import leftHeart from "@/public/events/picture/leftHeart.webp";
-import rightHeart from "@/public/events/picture/rightHeart.webp";
+import leftHeart from "@/public/eventspage/leftHeart.webp";
+import rightHeart from "@/public/eventspage/rightHeart.webp";
 
 interface EventPictureCardProps {
   title: string;
   image: StaticImageData;
 }
 
-const EventPictureCard = ({ title, image }: EventPictureCardProps) => {
+const PictureCard = ({ title, image }: EventPictureCardProps) => {
   return (
     <div className="mx-auto">
       <div className="h-3 w-full bg-winc-red-400" />
@@ -41,4 +41,4 @@ const EventPictureCard = ({ title, image }: EventPictureCardProps) => {
   );
 };
 
-export default EventPictureCard;
+export default PictureCard;

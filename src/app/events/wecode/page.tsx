@@ -1,7 +1,7 @@
 import MoreWecode from "@/components/events/wecode/moreWecode";
 import LookDown from "@/components/events/lookdown";
-import BoardPictureCard from "@/components/events/EventPictureCard";
-import Selfie from "@/public/events/picture/Selfie.webp";
+import BoardPictureCard from "@/components/events/picturecard";
+import Selfie from "@/public/eventspage/wecode/selfie.webp";
 import weCode from "@/public/eventspage/weCode.webp";
 import redBackground from "@/public/eventspage/redBackground.svg";
 
