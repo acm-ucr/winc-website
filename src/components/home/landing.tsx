@@ -29,7 +29,7 @@ const Landing = () => {
           <Image
             src={harvard}
             alt="harvard"
-            className="mx-auto w-11/12 py-4 md:mx-0 md:w-fit"
+            className="mx-auto w-11/12 p-4 md:mx-0 md:w-fit 2xl:w-full"
           />
         </div>
       </div>
