@@ -24,7 +24,7 @@ const Landing = () => {
           </Link>
         </div>
       </div>
-      <div className="mx-auto aspect-square w-11/12 rounded-full border-4 border-winc-red-700 bg-winc-red-400 md:p-6 md:mx-0 md:w-full md:-translate-y-8">
+      <div className="mx-auto aspect-square w-11/12 rounded-full border-4 border-winc-red-700 bg-winc-red-400 md:mx-0 md:w-full md:-translate-y-8 md:p-6">
         <div className="flex aspect-square items-center justify-center rounded-full border-4 border-winc-red-700 bg-winc-red-300">
           <Image
             src={harvard}
