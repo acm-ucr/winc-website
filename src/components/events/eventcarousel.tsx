@@ -28,7 +28,7 @@ export function EventCarousel() {
       }
     };
 
-    const interval = setInterval(scroll, 5);
+    const interval = setInterval(scroll, 16);
     return () => clearInterval(interval);
   }, [isTransitioning]);
 
