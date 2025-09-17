@@ -28,7 +28,7 @@ export function EventCarousel() {
       }
     };
 
-    const interval = setInterval(scroll, 16);
+    const interval = setInterval(scroll, 5);
     return () => clearInterval(interval);
   }, [isTransitioning]);
 
@@ -46,7 +46,7 @@ export function EventCarousel() {
       <div className="h-80 overflow-hidden md:h-96">
         <div
           ref={scrollRef}
-          className="flex h-full gap-5 overflow-hidden md:gap-10"
+          className="flex h-full gap-5 overflow-x-scroll md:gap-10"
           style={{
             scrollbarWidth: "none",
             msOverflowStyle: "none",
