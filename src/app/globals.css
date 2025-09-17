@@ -17,3 +17,7 @@
     linear-gradient(to top, theme("colors.winc.red.400") 8px, transparent 8px) 0
       100% / 60px 60px no-repeat;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

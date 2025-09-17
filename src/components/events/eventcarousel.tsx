@@ -50,6 +50,7 @@ export function EventCarousel() {
           style={{
             scrollbarWidth: "none",
             msOverflowStyle: "none",
+            WebkitOverflowScrolling: "touch",
             userSelect: "none",
           }}
         >
