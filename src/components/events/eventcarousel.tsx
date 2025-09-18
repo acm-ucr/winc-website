@@ -28,7 +28,7 @@ export function EventCarousel() {
       }
     };
 
-    const interval = setInterval(scroll, 16);
+    const interval = setInterval(scroll, 5);
     return () => clearInterval(interval);
   }, [isTransitioning]);
 
@@ -50,7 +50,6 @@ export function EventCarousel() {
           style={{
             scrollbarWidth: "none",
             msOverflowStyle: "none",
-            WebkitOverflowScrolling: "touch",
             userSelect: "none",
           }}
         >
