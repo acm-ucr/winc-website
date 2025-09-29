@@ -1,37 +1,8 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
 import { events } from "@/data/events";
 import Link from "next/link";
 
 export function EventCarousel() {
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [isTransitioning, setIsTransitioning] = useState(false);
-
-  useEffect(() => {
-    const scrollContainer = scrollRef.current;
-    if (!scrollContainer) return;
-
-    const scroll = () => {
-      if (isTransitioning) return;
-
-      scrollContainer.scrollLeft += 0.5;
-
-      if (
-        scrollContainer.scrollLeft >=
-        scrollContainer.scrollWidth - scrollContainer.clientWidth
-      ) {
-        setIsTransitioning(true);
-        scrollContainer.scrollLeft = 0;
-        setTimeout(() => {
-          setIsTransitioning(false);
-        }, 50);
-      }
-    };
-
-    const interval = setInterval(scroll, 16);
-    return () => clearInterval(interval);
-  }, [isTransitioning]);
-
   return (
     <div className="mx-auto w-full p-5 md:p-10 lg:w-4/5">
       <div>
@@ -43,34 +14,18 @@ export function EventCarousel() {
         </p>
       </div>
 
-      <div className="h-80 overflow-hidden md:h-96">
-        <div
-          ref={scrollRef}
-          className="flex h-full gap-5 overflow-x-scroll md:gap-10"
-          style={{
-            scrollbarWidth: "none",
-            msOverflowStyle: "none",
-            userSelect: "none",
-          }}
-        >
-          {[...events, ...events].map((event, index) => (
-            <div
-              key={`${event.id}-${index}`}
-              className="h-full w-80 flex-shrink-0 md:w-96"
-            >
-              <Link
-                href={event.link}
-                className={`flex h-full w-full items-start justify-start rounded-lg ${
-                  event.direction === "to-r"
-                    ? "bg-gradient-to-r"
-                    : "bg-gradient-to-b"
-                } ${event.gradient} p-4 shadow-lg transition-all md:p-6`}
-              >
-                <p className="text-2xl md:text-4xl">{event.title}</p>
-              </Link>
-            </div>
-          ))}
-        </div>
+      <div className="flex flex-col items-center gap-y-4">
+        {events.map(({ link, direction, gradient, title }, index) => (
+          <Link
+            href={link}
+            key={index}
+            className={`w-full rounded-lg p-4 shadow-lg hover:opacity-90 hover:shadow-xl md:p-6 ${
+              direction === "to-r" ? "bg-gradient-to-r" : "bg-gradient-to-b"
+            } ${gradient}`}
+          >
+            <p className="pb-8 text-2xl md:text-4xl">{title}</p>
+          </Link>
+        ))}
       </div>
     </div>
   );
