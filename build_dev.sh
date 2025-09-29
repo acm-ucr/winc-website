@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /home/projects/winc/winc-website
+cd /home/projects/winc/winc-v3-dev-branch
 
 # Builds the `dev` branch 
 res=$(git pull origin dev | grep Already)
