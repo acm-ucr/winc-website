@@ -1,100 +1,75 @@
-import Padma from "@/public/boardpage/padma.webp";
-import Bella from "@/public/boardpage/bella.webp";
-import Jaydah from "@/public/boardpage/jaydah.webp";
-import Anisha from "@/public/boardpage/anisha.webp";
-import Fatima from "@/public/boardpage/fatima.webp";
-import Christina from "@/public/boardpage/christina.webp";
-import Hailey from "@/public/boardpage/hailey.webp";
-import Ramya from "@/public/boardpage/ramya.webp";
-
+import Anisha from "@/public/boardpage/anisha2025.webp";
+import Fatima from "@/public/boardpage/fatima2025.webp";
+import Unnati from "@/public/boardpage/unnati2025.webp";
+import Sookie from "@/public/boardpage/sookie2025.webp";
+import Ananya from "@/public/boardpage/ananya2025.webp";
+import Medha from "@/public/boardpage/medha2025.webp";
+import Alessandro from "@/public/boardpage/alessandro2025.webp";
+import Kelly from "@/public/boardpage/kelly2025.webp";
+import Rebecca from "@/public/boardpage/rebecca2025.webp";
 const Board = [
-  {
-    image: Padma,
-    name: "Padma Bellamkonda",
-    position: "President",
-    linkedin: "https://www.linkedin.com/in/padma-bellamkonda/",
-    email: "pbell012@ucr.edu",
-    major: "Computer Science",
-    pronouns: "she/her",
-    year: "3rd",
-    starsign: "Taurus",
-  },
-  {
-    image: Bella,
-    name: "Kathalinne Bella Gonzalez",
-    position: "VP Internal",
-    linkedin: "https://www.linkedin.com/in/kathalinnegonzalez",
-    email: "kgonz192@ucr.edu",
-    major: "Computer Engineering",
-    pronouns: "she/her",
-    year: "3rd",
-    starsign: "Taurus",
-  },
-  {
-    image: Jaydah,
-    name: "Jaydah Julian",
-    position: "VP External",
-    linkedin: "https://www.linkedin.com/in/jaydah-julian-a33298225/",
-    email: "jjuli010@ucr.edu",
-    major: "Computer Science",
-    pronouns: "she/her",
-    year: "3rd",
-    starsign: "Taurus",
-  },
   {
     image: Anisha,
     name: "Anisha Nawar",
-    position: "Secretary",
-    linkedin: "https://www.linkedin.com/in/anisha-nawar-44232826b/",
-    email: "anawa007@ucr.edu",
+    position: "President",
     major: "Computer Science",
-    pronouns: "she/her",
-    year: "3rd",
-    starsign: "Taurus",
+    year: "4th",
   },
   {
     image: Fatima,
     name: "Fatima Bashir",
-    position: "Events Chair",
-    linkedin: "https://www.linkedin.com/in/fatima-bashir-6122a0274/",
-    email: "fbash006@ucr.edu",
+    position: "Vice President & RoseHack Co-Director",
     major: "Computer Science",
-    pronouns: "she/her",
-    year: "3rd",
-    starsign: "Taurus",
+    year: "5th",
   },
   {
-    image: Christina,
-    name: "Christina Serrato",
+    image: Unnati,
+    name: "Unnati Italia",
+    position: "Secretary",
+    major: "Computer Science",
+    year: "3rd",
+  },
+  {
+    image: Sookie,
+    name: "Sookie Drabla",
     position: "Social Media & Marketing Chair",
-    linkedin: "https://www.linkedin.com/in/christina-serrato-87b851261/",
-    email: "cserr037@ucr.edu",
     major: "Computer Science",
-    pronouns: "she/her",
-    year: "3rd",
-    starsign: "Taurus",
+    year: "4th",
   },
   {
-    image: Hailey,
-    name: "Hailey Glamore-Scott",
-    position: "Recruitment Chair",
-    linkedin: "https://www.linkedin.com/in/haileyglamorescott/",
-    email: "hglam001@ucr.edu",
-    major: "Computer Engineering",
-    pronouns: "she/her",
+    image: Ananya,
+    name: "Ananya Dharanikota",
+    position: "Technical Development Chair",
+    major: "Computer Science",
     year: "3rd",
-    starsign: "Taurus",
   },
   {
-    image: Ramya,
-    name: "Ramya Madugula",
+    image: Medha,
+    name: "Medha Yasa",
+    position: "Membership Chair",
+    major: "Computer Science",
+    year: "2nd",
+  },
+  {
+    image: Alessandro,
+    name: "Alessandro Paolieri",
+    position: "RoseHack Co-Director",
+    major: "Mechanical Engineering",
+    year: "2nd",
+  },
+  {
+    image: Kelly,
+    name: "Kelly Ramirez",
+    position: "Treasurer",
+    major: "Computer Science with Business Applications",
+    year: "4th",
+  },
+  {
+    image: Rebecca,
+    name: "Rebecca Jennings",
     position: "Operations Chair",
-    linkedin: "https://www.linkedin.com/in/ramya-madugula-6132051b4/",
-    email: "rmadu002@ucr.edu",
     major: "Computer Science",
-    pronouns: "she/her",
     year: "3rd",
-    starsign: "Taurus",
   },
 ];
 export default Board;
