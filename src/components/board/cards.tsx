@@ -15,12 +15,12 @@ const Cards = () => {
             image={card.image}
             name={card.name}
             position={card.position}
-            linkedin={card.linkedin}
-            email={card.email}
+            /* linkedin={card.linkedin}
+            email={card.email} */
             year={card.year}
             major={card.major}
-            pronouns={card.pronouns}
-            starsign={card.starsign}
+            /* pronouns={card.pronouns}
+            starsign={card.starsign} */
           />
         ))}
       </div>
