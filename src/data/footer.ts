@@ -39,8 +39,8 @@ const footer: Footer[] = [
     title: "Stay In Touch",
     links: [
       {
-        name: "Slack",
-        link: "https://join.slack.com/t/wincucr/shared_invite/zt-27xdsp07m-sPKN9hnqg0KRzYi832tm7Q",
+        name: "Discord",
+        link: "https://discord.gg/an8eGHYkXg",
       },
       {
         name: "wincucr@gmail.com",

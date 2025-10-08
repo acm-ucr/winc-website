@@ -21,9 +21,9 @@ const GrowAndThrive = () => {
             Interact with each other in a more casual setting withour inclusive
             bonding events
           </p>
-          <Link href="/" className="w-full">
+          <Link href="https://discord.gg/an8eGHYkXg" className="w-full">
             <Button className="m-4 w-1/2 bg-white py-5 text-2xl font-semibold text-winc-red-400">
-              SLACK
+              DISCORD
             </Button>
           </Link>
         </div>
