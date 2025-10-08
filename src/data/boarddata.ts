@@ -41,7 +41,7 @@ const Board = [
     name: "Ananya Dharanikota",
     position: "Technical Development Chair",
     major: "Computer Science",
-    year: "3rd",
+    year: "4th",
   },
   {
     image: Medha,
