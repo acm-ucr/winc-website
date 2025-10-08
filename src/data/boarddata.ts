@@ -55,7 +55,7 @@ const Board = [
     name: "Alessandro Paolieri",
     position: "RoseHack Co-Director",
     major: "Mechanical Engineering",
-    year: "2nd",
+    year: "3rd",
   },
   {
     image: Kelly,
