@@ -41,7 +41,7 @@ const Board = [
     name: "Ananya Dharanikota",
     position: "Technical Development Chair",
     major: "Computer Science",
-    year: "3rd",
+    year: "4th",
   },
   {
     image: Medha,
@@ -55,7 +55,7 @@ const Board = [
     name: "Alessandro Paolieri",
     position: "RoseHack Co-Director",
     major: "Mechanical Engineering",
-    year: "2nd",
+    year: "3rd",
   },
   {
     image: Kelly,

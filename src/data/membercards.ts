@@ -9,8 +9,8 @@ export const memberCards: memberCard[] = [
     text: "Sign-in sheets will be sent out at the beginning of every meeting and event. Sign in so we can track attendance and give you access to our newsletters.",
   },
   {
-    title: "Join our Slack",
-    text: "Join our Slack to communicate with us and have access to all our channels including #opportunities — a great resouce for seeking internships and on-campus jobs.",
+    title: "Join our Discord",
+    text: "Join our Discord to communicate with us and have access to all our channels including #job-opportunities — a great resouce for seeking internships and on-campus jobs.",
   },
   {
     title: "Follow our socials",
