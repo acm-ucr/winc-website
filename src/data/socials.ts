@@ -1,7 +1,7 @@
 import {
   FaInstagram,
   FaGithub,
-  FaSlack,
+  FaDiscord,
   FaLinkedinIn,
   FaYoutube,
   FaEnvelope,
@@ -30,9 +30,9 @@ const Socials: Social[] = [
     icon: FaGithub,
   },
   {
-    path: "https://join.slack.com/t/wincucr/shared_invite/zt-27xdsp07m-sPKN9hnqg0KRzYi832tm7Q",
-    title: "Slack",
-    icon: FaSlack,
+    path: "https://discord.gg/an8eGHYkXg",
+    title: "Discord",
+    icon: FaDiscord,
   },
   {
     path: "https://www.linkedin.com/company/ucr-women-in-computing/",
