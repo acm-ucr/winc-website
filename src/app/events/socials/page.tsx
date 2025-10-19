@@ -2,10 +2,11 @@ import LookDown from "@/components/events/lookdown";
 import BoardPictureCard from "@/components/events/picturecard";
 import GameSocial from "@/public/eventspage/moresocials/gamesocial.webp";
 import hearts from "@/public/eventspage/hearts.webp";
-
+import Header from "@/components/events/header";
 const Page = () => {
   return (
     <>
+      <Header title="Socials" subtitle="over the years" />
       <LookDown
         titleText="What kind of socials do we host?"
         sideImage={hearts}

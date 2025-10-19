@@ -25,7 +25,11 @@ const LookDown = ({
         {content2 && <p>{content2}</p>}
       </div>
       <div className="relative w-full md:ml-8 md:w-1/3">
-        <Image src={sideImage} alt="Red Background" className="w-full" />
+        <Image
+          src={sideImage}
+          alt="Red Background"
+          className="w-full border-4 border-winc-red-300 p-8"
+        />
 
         {sideImage2 && (
           <Image

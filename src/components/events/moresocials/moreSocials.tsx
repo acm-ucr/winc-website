@@ -5,7 +5,7 @@ import Tennis from "@/public/eventspage/moresocials/Tennis.webp";
 
 const MoreSocials = () => {
   return (
-    <div className="mx-auto max-w-3xl p-4 md:p-8">
+    <div className="mx-auto w-11/12">
       <EventSection
         title="Study Session"
         description="A study session for all students to bond, while being productive for their rigorous classes."
