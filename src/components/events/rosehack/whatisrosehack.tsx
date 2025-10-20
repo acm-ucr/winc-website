@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
 import Image from "next/image";
-import EventTitle from "./eventtitle";
+import EventTitle from "@/components/events/eventtitle";
 
-interface lookDownProps {
+interface whatIsProps {
   titleText: string;
   sideImage: StaticImageData;
   sideImage2?: StaticImageData;
@@ -10,13 +10,13 @@ interface lookDownProps {
   content2?: string;
 }
 
-const LookDown = ({
+const WhatIsRoseHack = ({
   titleText,
   sideImage,
   sideImage2,
   content,
   content2,
-}: lookDownProps) => {
+}: whatIsProps) => {
   return (
     <div className="mx-auto my-6 flex w-2/3 flex-col place-items-center justify-center gap-8 md:flex-row">
       <div className="flex-2 flex w-full flex-col gap-8 text-center text-lg md:w-2/3 md:text-left md:text-xl">
@@ -28,7 +28,7 @@ const LookDown = ({
         <Image
           src={sideImage}
           alt="Red Background"
-          className="w-full border-4 border-winc-red-300 bg-winc-red-300 p-8"
+          className="w-full border-4 border-winc-red-300 p-8"
         />
 
         {sideImage2 && (
@@ -43,4 +43,4 @@ const LookDown = ({
   );
 };
 
-export default LookDown;
+export default WhatIsRoseHack;

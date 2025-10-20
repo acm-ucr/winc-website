@@ -14,6 +14,7 @@ const Board = [
     position: "President",
     major: "Computer Science",
     year: "4th",
+    linkedin: "https://www.linkedin.com/in/anisha-nawar/",
   },
   {
     image: Fatima,
@@ -21,6 +22,7 @@ const Board = [
     position: "Vice President & RoseHack Co-Director",
     major: "Computer Science",
     year: "5th",
+    linkedin: "https://www.linkedin.com/in/fatima-bashir-6122a0274/",
   },
   {
     image: Unnati,
@@ -28,6 +30,7 @@ const Board = [
     position: "Secretary",
     major: "Computer Science",
     year: "3rd",
+    linkedin: "https://www.linkedin.com/in/unnati-italia-6687a5297/",
   },
   {
     image: Sookie,
@@ -35,6 +38,7 @@ const Board = [
     position: "Social Media & Marketing Chair",
     major: "Computer Science",
     year: "4th",
+    linkedin: "https://www.linkedin.com/in/sookiedrabla/",
   },
   {
     image: Ananya,
@@ -42,6 +46,7 @@ const Board = [
     position: "Technical Development Chair",
     major: "Computer Science",
     year: "4th",
+    linkedin: "https://www.linkedin.com/in/ananya-dharanikota/",
   },
   {
     image: Medha,
@@ -49,6 +54,7 @@ const Board = [
     position: "Membership Chair",
     major: "Computer Science",
     year: "2nd",
+    linkedin: "https://www.linkedin.com/in/medha-yasa/",
   },
   {
     image: Alessandro,
@@ -56,6 +62,7 @@ const Board = [
     position: "RoseHack Co-Director",
     major: "Mechanical Engineering",
     year: "3rd",
+    linkedin: "https://www.linkedin.com/in/alessandro-paolieri/",
   },
   {
     image: Kelly,
@@ -63,6 +70,7 @@ const Board = [
     position: "Treasurer",
     major: "Computer Science with Business Applications",
     year: "4th",
+    linkedin: "https://www.linkedin.com/in/kelly-ramirez-390a1625a/",
   },
   {
     image: Rebecca,
@@ -70,6 +78,7 @@ const Board = [
     position: "Operations Chair",
     major: "Computer Science",
     year: "3rd",
+    linkedin: "https://www.linkedin.com/in/rebecca-jennings-246a652a1/",
   },
 ];
 export default Board;

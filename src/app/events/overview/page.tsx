@@ -1,6 +1,11 @@
 import { EventCarousel } from "@/components/events/eventcarousel";
+
 const Page = () => {
-  return <EventCarousel />;
+  return (
+    <>
+      <EventCarousel />
+    </>
+  );
 };
 
 export default Page;

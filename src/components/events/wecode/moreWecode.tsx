@@ -1,33 +1,31 @@
 import NewPeople from "@/public/eventspage/wecode/NewPeople.webp";
 import GuestSpeaker from "@/public/eventspage/wecode/GuestSpeaker.webp";
 import SoManyFirsts from "@/public/eventspage/wecode/SoManyFirsts.webp";
-import EventSection from "@/components/events/eventsection";
+import YearCard from "../yearCard";
 
 const MoreWecode = () => {
   return (
-    <div className="mx-auto max-w-3xl p-4 md:p-8">
-      <EventSection
+    <div className="mx-auto w-10/12 p-4 md:p-8">
+      <YearCard
         title="Meeting New People!"
         description="Many students go to this event, UCR students try to engage with everyone to gain an enriching experience."
         image={NewPeople}
-        imageAlt="Meeting New People"
-        reverseLayout={false}
+        reverse={false}
+        year="'24-25"
       />
-
-      <EventSection
+      <YearCard
         title="Guest Speakers!"
         description="Fantastic individuals sharing their experience in the technical world."
         image={GuestSpeaker}
-        imageAlt="Guest Speakers"
-        reverseLayout={true}
+        reverse={true}
+        year="'24-25"
       />
-
-      <EventSection
+      <YearCard
         title="So Many Firsts!"
         description="It was many WINCies firsts when experiencing WeCode, there are plenty more firsts to share with WINC!"
         image={SoManyFirsts}
-        imageAlt="So Many Firsts"
-        reverseLayout={false}
+        reverse={false}
+        year="'24-25"
       />
     </div>
   );

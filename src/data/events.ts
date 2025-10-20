@@ -19,7 +19,7 @@ export const events: Event[] = [
     title: "Socials",
     gradient: "from-[#8FB0F9] via-[#DA9CD9] to-[#E2829A]",
     direction: "to-r",
-    link: "/events/moresocials",
+    link: "/events/socials",
   },
   {
     id: 3,

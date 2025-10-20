@@ -4,10 +4,12 @@ import BoardPictureCard from "@/components/events/picturecard";
 import Selfie from "@/public/eventspage/wecode/selfie.webp";
 import weCode from "@/public/eventspage/weCode.webp";
 import redBackground from "@/public/eventspage/redBackground.svg";
+import Header from "@/components/events/header";
 
 const Page = () => {
   return (
-    <div>
+    <>
+      <Header title="WeCode" subtitle="2025" />
       <LookDown
         titleText="What is WECode?"
         sideImage={redBackground}
@@ -17,7 +19,7 @@ const Page = () => {
       />
       <BoardPictureCard title="Selfie!" image={Selfie} />
       <MoreWecode />
-    </div>
+    </>
   );
 };
 
