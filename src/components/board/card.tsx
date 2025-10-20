@@ -35,7 +35,7 @@ const Card = ({
           className="flex aspect-square w-full flex-col justify-center px-6 pb-2 pt-6"
         />
       </div>
-      <div className="flex items-center justify-between px-6">
+      <div className="mt-4 flex items-center justify-between px-6">
         <p className="text-2xl font-semibold text-winc-red-300">{name}</p>
         {linkedin && (
           <Link href={linkedin} target="_blank" rel="noopener noreferrer">

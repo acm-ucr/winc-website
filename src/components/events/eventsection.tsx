@@ -31,15 +31,9 @@ const EventSection = ({
     <div className="relative flex flex-1 items-center justify-center">
       <div
         className={`absolute top-0 -z-10 h-full w-full transform bg-winc-red-400 ${reverseLayout ? "right-0 translate-x-4 md:left-0 md:-translate-x-4" : "right-0 translate-x-4"} -translate-y-4`}
-      ></div>
+      />
       <div className="relative z-10">
-        <Image
-          alt={imageAlt}
-          src={image}
-          className="object-cover"
-          width={300}
-          height={350}
-        />
+        <Image alt={imageAlt} src={image} />
       </div>
     </div>
   );

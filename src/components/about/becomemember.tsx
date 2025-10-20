@@ -14,7 +14,7 @@ const BecomeMember = () => {
           {memberCards.map((memberCard, index) => (
             <div
               key={index}
-              className="m-3 flex aspect-square flex-col items-center justify-start space-y-4 rounded-xl bg-white p-4 text-center text-winc-red-400 outline outline-4 outline-offset-8 outline-white md:space-y-0 md:p-2 lg:space-y-2 lg:p-4 xl:space-y-4"
+              className="m-3 flex flex-col items-center justify-start space-y-4 rounded-xl bg-white p-4 text-center text-winc-red-400 outline outline-4 outline-offset-8 outline-white md:space-y-0 md:p-2 lg:space-y-2 lg:p-4 xl:space-y-4"
             >
               <Image
                 src={memberavatar}
