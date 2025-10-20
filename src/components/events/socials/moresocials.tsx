@@ -25,7 +25,7 @@ const MoreSocials = () => {
         description="A tennis social that held matches of singles and doubles."
         image={Tennis}
         reverse={false}
-        year="unknown year"
+        year="'24'"
       />
     </div>
   );
