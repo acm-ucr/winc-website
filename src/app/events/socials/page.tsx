@@ -1,4 +1,4 @@
-import WhatIs from "@/components/events/rosehack/whatis";
+import WhatIs from "@/components/events/rosehack/whatisrosehack";
 import BoardPictureCard from "@/components/events/picturecard";
 import GameSocial from "@/public/eventspage/moresocials/gamesocial.webp";
 import hearts from "@/public/eventspage/hearts.webp";

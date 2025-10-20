@@ -5,7 +5,7 @@ import Header from "@/components/events/header";
 import Image from "next/image";
 import logo from "@/public/eventspage/rosehack/logo.svg";
 import Projects from "@/components/events/rosehack/projects";
-import WhatIs from "@/components/events/rosehack/whatis";
+import WhatIs from "@/components/events/rosehack/whatisrosehack";
 const Page = () => {
   return (
     <>
