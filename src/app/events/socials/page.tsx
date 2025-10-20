@@ -3,7 +3,7 @@ import BoardPictureCard from "@/components/events/picturecard";
 import GameSocial from "@/public/eventspage/moresocials/gamesocial.webp";
 import hearts from "@/public/eventspage/hearts.webp";
 import Header from "@/components/events/header";
-import MoreSocials from "@/components/events/moresocials/moresocials";
+import MoreSocials from "@/components/events/socials/moresocials";
 
 const Page = () => {
   return (
