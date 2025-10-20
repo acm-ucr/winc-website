@@ -1,4 +1,4 @@
-import WhatIs from "@/components/events/rosehack/whatisrosehack";
+import WhatIsRoseHack from "@/components/events/rosehack/whatisrosehack";
 import BoardPictureCard from "@/components/events/picturecard";
 import GameSocial from "@/public/eventspage/moresocials/gamesocial.webp";
 import hearts from "@/public/eventspage/hearts.webp";
@@ -9,7 +9,7 @@ const Page = () => {
   return (
     <>
       <Header title="Socials" subtitle="over the years" />
-      <WhatIs
+      <WhatIsRoseHack
         titleText="What kind of socials do we host?"
         sideImage={hearts}
         content="We host all kinds of socials! We host game days, workshops, general meetings, etc. We aim to make everyone feel included through these events."

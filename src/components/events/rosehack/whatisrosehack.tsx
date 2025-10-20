@@ -10,7 +10,7 @@ interface whatIsProps {
   content2?: string;
 }
 
-const WhatIs = ({
+const WhatIsRoseHack = ({
   titleText,
   sideImage,
   sideImage2,
@@ -43,4 +43,4 @@ const WhatIs = ({
   );
 };
 
-export default WhatIs;
+export default WhatIsRoseHack;

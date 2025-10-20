@@ -5,7 +5,7 @@ import Header from "@/components/events/header";
 import Image from "next/image";
 import logo from "@/public/eventspage/rosehack/logo.svg";
 import Projects from "@/components/events/rosehack/projects";
-import WhatIs from "@/components/events/rosehack/whatisrosehack";
+import WhatIsRoseHack from "@/components/events/rosehack/whatisrosehack";
 const Page = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Page = () => {
       <div className="flex justify-center pt-4">
         <Image src={logo} alt="rosehack pixels" />
       </div>
-      <WhatIs
+      <WhatIsRoseHack
         titleText="What kind of socials do we host?"
         sideImage={hearts}
         content="We host all kinds of socials! We host game days, workshops, general meetings, etc. We aim to make everyone feel included through these events."

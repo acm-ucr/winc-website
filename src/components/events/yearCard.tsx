@@ -1,12 +1,12 @@
 import Image, { StaticImageData } from "next/image";
 
-type ProjectCardProps = {
+interface YearCardProps {
   title: string;
   description: string;
   image: StaticImageData;
   reverse?: boolean;
   year: string;
-};
+}
 
 const YearCard = ({
   title,
@@ -14,7 +14,7 @@ const YearCard = ({
   image,
   reverse,
   year,
-}: ProjectCardProps) => {
+}: YearCardProps) => {
   return (
     <div
       className={`xl:gap-30 flex flex-col items-center justify-center gap-14 p-10 md:flex-row md:p-20 xl:p-28 2xl:gap-72 2xl:px-48 ${
