@@ -5,8 +5,8 @@ const Mai = () => {
   return (
     <div className="my-10">
       <div className="mx-auto grid w-5/6 grid-cols-1 items-center md:grid-cols-2">
-        <div className="mx-auto flex w-11/12 justify-center rounded-full bg-winc-red-400 py-4">
-          <Image src={group} alt="Group" className="w-11/12 md:w-full" />
+        <div className="mx-auto flex w-11/12 justify-center rounded-full bg-winc-red-400 px-4 py-2 md:px-0 md:py-4">
+          <Image src={group} alt="Group" />
         </div>
         <div className="mx-auto mt-8 flex w-11/12 flex-col items-center text-center text-winc-blue-500 md:mt-0">
           <p className="text-3xl font-bold">Empowering Women in Tech</p>
