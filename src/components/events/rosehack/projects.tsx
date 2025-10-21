@@ -13,7 +13,7 @@ const Projects = () => {
       />
       <ProjectCard
         title="Hardware Project #2"
-        description="A Rose Hack hardware project."
+        description='A hardware project that engages with the old theme "Eco Futurism."'
         image={project2}
         reverse={true}
       />
