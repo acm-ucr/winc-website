@@ -23,7 +23,7 @@ const WhatIs = () => {
         </p>
       </div>
 
-      <div className="-mt-14 mb-10 h-3/4 w-3/4 translate-x-20 bg-winc-red-400 md:ml-10 md:mt-0 md:h-3/4 md:w-10/12 md:translate-x-10 lg:h-5/6">
+      <div className="-mt-14 mb-10 h-3/4 w-3/4 translate-x-20 bg-winc-red-400 md:ml-10 md:mt-0 md:h-3/4 md:w-10/12 md:translate-x-10 lg:h-5/6 2xl:h-2/3 2xl:w-2/3">
         <Image
           src={aboutImage}
           alt="about"
