@@ -32,7 +32,7 @@ const Card = ({
         <Image
           src={image}
           alt="text"
-          className="flex aspect-square w-full flex-col justify-center px-6 pb-2 pt-6"
+          className="flex aspect-square w-full flex-col justify-center object-cover px-6 pb-2 pt-6"
         />
       </div>
       <div className="mt-4 flex items-center justify-between px-6">

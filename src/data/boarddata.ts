@@ -1,84 +1,112 @@
-import Anisha from "@/public/boardpage/anisha2025.webp";
-import Fatima from "@/public/boardpage/fatima2025.webp";
-import Unnati from "@/public/boardpage/unnati2025.webp";
-import Sookie from "@/public/boardpage/sookie2025.webp";
-import Ananya from "@/public/boardpage/ananya2025.webp";
-import Medha from "@/public/boardpage/medha2025.webp";
-import Alessandro from "@/public/boardpage/alessandro2025.webp";
-import Kelly from "@/public/boardpage/kelly2025.webp";
-import Rebecca from "@/public/boardpage/rebecca2025.webp";
+import Unnati from "@/public/boardpage/Unnati_Italia.webp";
+import Sanjuktha from "@/public/boardpage/Sanjuktha_Thotakuri.webp";
+import Aadhya from "@/public/boardpage/Aadhya_Pai.webp";
+import Neha from "@/public/boardpage/Neha_Velempati.webp";
+import Kyra from "@/public/boardpage/Kyra_Ruva.webp";
+import Apoorva from "@/public/boardpage/Apoorva_Bathula.webp";
+import Claire from "@/public/boardpage/Claire_Hwang.webp";
+import Rebecca from "@/public/boardpage/Rebecca_Jennings.webp";
+import Chloe from "@/public/boardpage/Chloe_Jane_Cuevas.webp";
+import Megan from "@/public/boardpage/Megan_Diep.webp";
+import Kayla from "@/public/boardpage/kayla_baylee.webp";
+import Nam from "@/public/boardpage/Nam_Nguyen.webp";
+
 const Board = [
-  {
-    image: Anisha,
-    name: "Anisha Nawar",
-    position: "President",
-    major: "Computer Science",
-    year: "4th",
-    linkedin: "https://www.linkedin.com/in/anisha-nawar/",
-  },
-  {
-    image: Fatima,
-    name: "Fatima Bashir",
-    position: "Vice President & RoseHack Co-Director",
-    major: "Computer Science",
-    year: "5th",
-    linkedin: "https://www.linkedin.com/in/fatima-bashir-6122a0274/",
-  },
   {
     image: Unnati,
     name: "Unnati Italia",
-    position: "Secretary",
+    position: "President",
     major: "Computer Science",
-    year: "3rd",
+    year: "4th",
     linkedin: "https://www.linkedin.com/in/unnati-italia-6687a5297/",
-  },
-  {
-    image: Sookie,
-    name: "Sookie Drabla",
-    position: "Social Media & Marketing Chair",
-    major: "Computer Science",
-    year: "4th",
-    linkedin: "https://www.linkedin.com/in/sookiedrabla/",
-  },
-  {
-    image: Ananya,
-    name: "Ananya Dharanikota",
-    position: "Technical Development Chair",
-    major: "Computer Science",
-    year: "4th",
-    linkedin: "https://www.linkedin.com/in/ananya-dharanikota/",
-  },
-  {
-    image: Medha,
-    name: "Medha Yasa",
-    position: "Membership Chair",
-    major: "Computer Science",
-    year: "2nd",
-    linkedin: "https://www.linkedin.com/in/medha-yasa/",
-  },
-  {
-    image: Alessandro,
-    name: "Alessandro Paolieri",
-    position: "RoseHack Co-Director",
-    major: "Mechanical Engineering",
-    year: "3rd",
-    linkedin: "https://www.linkedin.com/in/alessandro-paolieri/",
-  },
-  {
-    image: Kelly,
-    name: "Kelly Ramirez",
-    position: "Treasurer",
-    major: "Computer Science with Business Applications",
-    year: "4th",
-    linkedin: "https://www.linkedin.com/in/kelly-ramirez-390a1625a/",
   },
   {
     image: Rebecca,
     name: "Rebecca Jennings",
-    position: "Operations Chair",
+    position: "Vice President",
+    major: "Computer Science",
+    year: "4th",
+    linkedin: "https://www.linkedin.com/in/rebecca-jennings-246a652a1/",
+  },
+  {
+    image: Sanjuktha,
+    name: "Sanjuktha Thotakuri",
+    position: "Secretary",
     major: "Computer Science",
     year: "3rd",
-    linkedin: "https://www.linkedin.com/in/rebecca-jennings-246a652a1/",
+    linkedin: "https://www.linkedin.com/in/sanjuktha-thotakuri/",
+  },
+  {
+    image: Aadhya,
+    name: "Aadhya Pai",
+    position: "Treasurer",
+    major: "Computer Science w/ Business Applications",
+    year: "2nd",
+    linkedin: "https://www.linkedin.com/in/aadhyapai/",
+  },
+  {
+    image: Neha,
+    name: "Neha Velempati",
+    position: "Operations Chair",
+    major: "Electrical Engineering",
+    year: "3rd",
+    linkedin: "https://www.linkedin.com/in/neha-velempati-7b2687332/",
+  },
+  {
+    image: Kyra,
+    name: "Kyra Ruvalcaba",
+    position: "Outreach Chair",
+    major: "Computer Science",
+    year: "5th",
+    linkedin: "https://www.linkedin.com/in/kyra-ruvalcaba-a5494a419/",
+  },
+  {
+    image: Chloe,
+    name: "Chloe-Jane Cuevas",
+    position: "Marketing",
+    major: "Computer Science",
+    year: "4th",
+    linkedin: "https://www.linkedin.com/in/chloe-jane-cuevas/",
+  },
+  {
+    image: Claire,
+    name: "Claire Hwang",
+    position: "Marketing",
+    major: "Bioengineering",
+    year: "2nd",
+    linkedin: "https://www.linkedin.com/in/claire-hwang-89bb25321/",
+  },
+  {
+    image: Apoorva,
+    name: "Apoorva Bathula",
+    position: "Technical Development Chair",
+    major: "Data Science",
+    year: "2nd",
+    linkedin: "https://www.linkedin.com/in/apoorva-bathula-9957bb319/",
+  },
+  {
+    image: Megan,
+    name: "Megan Diep",
+    position: "Mentorship Chair",
+    major: "Computer Science",
+    year: "4th",
+    linkedin: "https://www.linkedin.com/in/megan-d-046381296/",
+  },
+  {
+    image: Nam,
+    name: "Nam Nguyen",
+    position: "Rosehack Co-director",
+    major: "Computer Science",
+    year: "4th",
+    linkedin: "https://www.linkedin.com/in/nam-nguyen-a62b47303/",
+  },
+  {
+    image: Kayla,
+    name: "Kayla Bayley",
+    position: "Rosehack Co-director",
+    major: "Mechanical Engineering",
+    year: "2nd",
+    linkedin: "https://www.linkedin.com/in/kayla-bayley-8ab659319/",
   },
 ];
 export default Board;
