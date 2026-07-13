@@ -11,13 +11,14 @@ const WhatIs = () => {
           <p className="border-b-4 border-winc-red-400 text-xl md:pb-3 md:text-3xl lg:text-5xl"></p>
         </p>
         <p className="text-base lg:text-2xl">
-          WINC is the University of California, Riverside's dedicated
-          organization for women in tech.
+          Women in Computing (WINC) is a dedicated organization for women and
+          underrepresented communities in tech at the University of California
+          Riverside.
         </p>
         <p className="text-base lg:text-2xl">
-          We are a welcoming, all-inclusive community that empowers and supports
-          our members by providing the mentorship, resources, and environment
-          needed to thrive in the tech industry.
+          We are a welcoming, all-inclusive community that aims to empower and
+          support our members by providing the mentorship, resources, and
+          environment needed to thrive in the tech industry.
         </p>
       </div>
 
