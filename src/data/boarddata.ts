@@ -63,7 +63,7 @@ const Board = [
   {
     image: Chloe,
     name: "Chloe-Jane Cuevas",
-    position: "Marketing",
+    position: "Marketing Co-Chair",
     major: "Computer Science",
     year: "4th",
     linkedin: "https://www.linkedin.com/in/chloe-jane-cuevas/",
@@ -71,7 +71,7 @@ const Board = [
   {
     image: Claire,
     name: "Claire Hwang",
-    position: "Marketing",
+    position: "Marketing Co-Chair",
     major: "Bioengineering",
     year: "2nd",
     linkedin: "https://www.linkedin.com/in/claire-hwang-89bb25321/",
@@ -87,7 +87,7 @@ const Board = [
   {
     image: Megan,
     name: "Megan Diep",
-    position: "Mentorship Chair",
+    position: "Mentorship Director",
     major: "Computer Science",
     year: "4th",
     linkedin: "https://www.linkedin.com/in/megan-d-046381296/",
@@ -95,7 +95,7 @@ const Board = [
   {
     image: Nam,
     name: "Nam Nguyen",
-    position: "Rosehack Co-director",
+    position: "RoseHack Co-Director",
     major: "Computer Science",
     year: "4th",
     linkedin: "https://www.linkedin.com/in/nam-nguyen-a62b47303/",
@@ -103,7 +103,7 @@ const Board = [
   {
     image: Kayla,
     name: "Kayla Bayley",
-    position: "Rosehack Co-director",
+    position: "RoseHack Co-Director",
     major: "Mechanical Engineering",
     year: "2nd",
     linkedin: "https://www.linkedin.com/in/kayla-bayley-8ab659319/",

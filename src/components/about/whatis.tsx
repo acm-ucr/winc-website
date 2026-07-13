@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aboutImage from "@/public/aboutpage/about1.webp";
+import aboutImage from "@/public/aboutpage/WincBoard_group_pic.webp";
 import groupImage from "@/public/aboutpage/wincgroupphoto.webp";
 
 const WhatIs = () => {
@@ -7,19 +7,17 @@ const WhatIs = () => {
     <div className="relative grid grid-cols-1 grid-rows-4 justify-center md:grid-cols-2 md:grid-rows-2 md:p-20">
       <div className="p-5 md:p-0 lg:p-10">
         <p className="mb-5 flex justify-center text-xl font-bold md:mb-10 md:justify-end md:text-3xl lg:text-5xl">
-          What is WIN
-          <p className="border-b-4 border-winc-red-400 text-xl md:pb-3 md:text-3xl lg:text-5xl">
-            C?
-          </p>
+          What is Women in Computing (WINC)?
+          <p className="border-b-4 border-winc-red-400 text-xl md:pb-3 md:text-3xl lg:text-5xl"></p>
         </p>
         <p className="text-base lg:text-2xl">
-          WINC is the University of California, Riverside's ACM-W chapter
-          dedicated to empowering and supporting a network of women in tech.
+          WINC is the University of California, Riverside's dedicated network
+          for women in tech.
         </p>
         <p className="text-base lg:text-2xl">
-          We are an inclusive community for anyone who is interested in
-          advocating for women in tech and anyone - regardless of skill - who is
-          interested in the field of computing.
+          We are a welcoming, all-inclusive community that empowers and supports
+          our members by providing the mentorship, resources, and environment
+          needed to thrive in the tech industry.
         </p>
       </div>
 
@@ -42,10 +40,10 @@ const WhatIs = () => {
         </p>
         <p className="text-base lg:text-2xl">
           We host a plethora of events. Whether you want to ace that coding
-          interview with our workshops, or want to attend speaker panels with
-          some of the most intelligent, down-to-earth people in the industry, or
-          maybe you just want to hang out with a community, WINC is the place
-          for you.
+          interview with our workshops, attend company tours, demonstrate your
+          innovative mind and computing skills at RoseHack, our award-winning
+          event, or maybe just hang out with a community, WINC is the place for
+          you!
         </p>
       </div>
     </div>
