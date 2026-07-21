@@ -6,13 +6,16 @@ const WhatIs = () => {
   return (
     <div className="relative grid grid-cols-1 grid-rows-4 justify-center md:grid-cols-2 md:grid-rows-2 md:p-20">
       <div className="p-5 md:p-0 lg:p-10">
-        <p className="mb-5 flex justify-center text-xl font-bold md:mb-10 md:justify-end md:text-3xl lg:text-5xl">
-          What is Women in Computing (WINC)?
-          <p className="border-b-4 border-winc-red-400 text-xl md:pb-3 md:text-3xl lg:text-5xl"></p>
+        <p className="mb-5 text-xl font-bold md:mb-10 md:text-3xl lg:text-5xl">
+          What is Women in{" "}
+          <span className="whitespace-nowrap">
+            <span className="border-b-4 border-winc-red-400 md:pb-3">Co</span>
+            mputing (WINC)?
+          </span>
         </p>
         <p className="text-base lg:text-2xl">
           Women in Computing (WINC) is a dedicated organization for women and
-          underrepresented communities in tech at the University of California
+          underrepresented communities in tech at the University of California,
           Riverside.
         </p>
         <p className="text-base lg:text-2xl">
@@ -42,9 +45,8 @@ const WhatIs = () => {
         <p className="text-base lg:text-2xl">
           We host a plethora of events. Whether you want to ace that coding
           interview with our workshops, attend company tours, demonstrate your
-          innovative mind and computing skills at RoseHack, our award-winning
-          event, or maybe just hang out with a community, WINC is the place for
-          you!
+          innovation at RoseHack, our award-winning event, or maybe just hang
+          out with a community, WINC is the place for you!
         </p>
       </div>
     </div>
